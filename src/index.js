@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-
-function App (){
-    return(
-        <React.Fragment>
-            <div>Testing</div>
-        </React.Fragment>
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch
+} from "react-router-dom";
+import Home from 'pages/home';
+function App() {
+    return (
+        <Router>
+            <Switch>
+                <Route path="/" exact={true} component={Home}/>
+                <Route render={() => <h1>Page not found</h1>} />
+            </Switch>
+        </Router>
     );
 
 }

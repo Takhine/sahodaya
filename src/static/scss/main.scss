@@ -1,0 +1,12 @@
+@import './utilities/breakpoints';
+@import './utilities/colors';
+@import './utilities/mixins';
+@import './utilities/variables';
+
+@import './base/base';
+
+@import './pages/home';
+@import './pages/about';
+@import './pages/gallary';
+@import './pages/archives';
+
