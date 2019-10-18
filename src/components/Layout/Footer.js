@@ -1,11 +1,11 @@
 import React from 'react';
 
 
-function Footer() {
+const Footer=()=> {
     return (
-        <React.Fragment>
+        <div className="footer">
             Footer
-        </React.Fragment>
+        </div>
     )
 }
 

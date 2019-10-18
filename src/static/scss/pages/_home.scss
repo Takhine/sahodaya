@@ -108,3 +108,18 @@
         @include section-content;
     }
 }
+
+// Member Schools 
+.member-schools-container{
+    @extend .container;
+    .member-schools-title{
+        @include section-title;
+    }
+    .slide-container{
+        margin-right: 10px;
+        .slide{
+            width: 150px;
+            height: 150px;;
+        }
+    }
+}

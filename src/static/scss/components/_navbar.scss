@@ -44,6 +44,15 @@
             @include lg{
                 display: block;
             }
+            a{
+                text-decoration: none;
+                &.active{
+                    button{
+                        border-bottom: 2px solid white;
+                        transition: $transition-main;
+                    }
+                }
+            }
             button{
                 margin-left: 25px;
                 text-transform: capitalize;
