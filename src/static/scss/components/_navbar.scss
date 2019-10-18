@@ -1,0 +1,51 @@
+.grow{
+    flex-grow: 1;
+}
+
+#navbar{
+    height: 70px;
+    background: $primary-blue;
+    .MuiToolbar-regular{
+        padding: 0 16px;
+        @include md{
+        padding: 0 80px;
+
+        }
+        .menu-button{
+            @include mr-10;
+            display: block;
+            @include lg{
+                display: none;
+            }
+        }
+        h2{
+            font-size: $small-font;
+            @include sm{
+                font-size: $title-font;
+            }
+        }
+        .logo-container{
+            flex-grow: 0;
+            @include lg{
+                flex-grow: 1;
+            }
+            img{
+                width: 82px;
+                @include sm{
+                    width: 85px;
+                }
+            }
+        }
+        .nav-menu-container{
+            display: none;
+            @include lg{
+                display: block;
+            }
+            button{
+                margin-left: 25px;
+                text-transform: capitalize;
+            }
+        }
+    }
+    
+}
