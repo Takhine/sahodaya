@@ -89,3 +89,20 @@
         border: $main-border;
     }
 }
+
+// Headings
+@mixin  section-title {
+    font-size: $title-font;
+    margin-bottom:10px;
+    @include xl{
+        font-size: $large-font;
+    }
+}
+
+@mixin section-content{
+    text-align: justify;
+    font-size: $small-font;
+    @include xl{
+        font-size: $title-font;
+    }
+}

@@ -1,7 +1,7 @@
 // Header
 
 .header-container{
-    border-bottom: 5px solid $primary-white;
+    border-bottom: $section-border;
     height: 100%;
     @include msm{
         height: 100vh;
@@ -36,11 +36,12 @@
                     right: 0;
                     left: 0;
                     top: -25px;
+                    padding-left: 40px;
                 }
                 .cta-message{
                     font-size: 24px;
                     @include lg{
-                        font-size: $xlarge-font;
+                        font-size: 42px;
                     }
                 }
                 .flex-container{
@@ -59,19 +60,51 @@
                 padding-left: 32px;
             }
             h1{
-                font-size: $title-font;
-                margin-bottom:10px;
-                @include xl{
-                    font-size: $large-font;
-                }
+                @include section-title;
             }
             p{
-                text-align: justify;
-                font-size: $small-font;
-                @include xl{
-                    font-size: $regular-font;
-                }
+               @include section-content;
             }
         }
+    }
+}
+
+// About
+.about-container{
+    height: 100%;
+    padding-top: 20px;
+    border-bottom: $section-border;
+    @extend .container;
+    @include msm{
+        height:100vh;
+    }
+    p{
+        text-align: justify;
+    }
+    .mobile-timeline{
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+        @include mmd{
+            display: none;
+        }
+    }
+    .timeline-container{
+        text-align: -webkit-center;
+        .timeline{
+            display: none;
+            @include mmd{
+                display: block;
+            }
+        }
+    }
+    .mv-container{
+        margin-top: 40px;
+    }
+    .mission-title, .vision-title, .about-title{
+        @include section-title;
+    }
+    .mission-content, .vision-content, .about-content{
+        @include section-content;
     }
 }

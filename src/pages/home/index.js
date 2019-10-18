@@ -11,7 +11,7 @@ function Home() {
         <Layout>
             {/* Header */}
             <Header/>
-            <div className="container">
+            <div>
                 {/* About */}
                 <About/>
                 {/* Member Schools Slider */}
