@@ -1,0 +1,77 @@
+// Header
+
+.header-container{
+    border-bottom: 5px solid $primary-white;
+    height: 100%;
+    @include msm{
+        height: 100vh;
+    }
+    img{
+        width: 100%;
+        -webkit-filter: blur(1px);
+    }
+    .header-bottom{
+        @extend .container;
+        padding-top: 0;
+        padding-bottom: 0;
+        .MuiGrid-spacing-xs-8{
+            width: 100%;
+            margin: 0;
+        }
+        .cta-grid{
+            position: relative;
+            width: inherit;
+            padding: 10px 0;
+            @include msm{
+                margin-bottom: 40px;
+            }
+            .cta-container{
+                position: relative;
+                padding: 20px;
+                margin: auto;
+                width: inherit;
+                border-radius:$card-border-radius;
+                @include msm{
+                    position: absolute;
+                    right: 0;
+                    left: 0;
+                    top: -25px;
+                }
+                .cta-message{
+                    font-size: 24px;
+                    @include lg{
+                        font-size: $xlarge-font;
+                    }
+                }
+                .flex-container{
+                    margin-top: 30px;
+                    .cta-button{
+                        @include primary-button;
+                    }
+                }
+            }
+        }
+        .welcome-grid{
+            padding: 10px 0;
+            @include msm{
+                padding-top: 0;
+                padding-right: 0;
+                padding-left: 32px;
+            }
+            h1{
+                font-size: $title-font;
+                margin-bottom:10px;
+                @include xl{
+                    font-size: $large-font;
+                }
+            }
+            p{
+                text-align: justify;
+                font-size: $small-font;
+                @include xl{
+                    font-size: $regular-font;
+                }
+            }
+        }
+    }
+}

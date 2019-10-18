@@ -1,10 +1,22 @@
 import React from 'react';
 import Layout from 'components/Layout';
 
+// Components
+import Header from './Header';
+import About from './About';
+import MemberSchools from './MemberSchools';
+
 function Home() {
     return (
         <Layout>
-            <div>Testing</div>
+            {/* Header */}
+            <Header/>
+            <div className="container">
+                {/* About */}
+                <About/>
+                {/* Member Schools Slider */}
+                <MemberSchools/>
+            </div>
         </Layout>
     );
 

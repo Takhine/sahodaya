@@ -71,3 +71,21 @@
 @mixin  m-10 {
     margin: 10px;
 }
+
+// Cards
+
+
+// Buttons
+@mixin primary-button{
+    background: $primary-blue;
+    height: 40px;
+    text-transform: capitalize;
+    color: white;
+    transition: $transition-main;
+    &:hover{
+        transition: $transition-main;
+        color: $primary-blue;
+        background-color: white;
+        border: $main-border;
+    }
+}

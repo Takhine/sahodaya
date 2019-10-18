@@ -23,7 +23,6 @@ function Navbar() {
             <AppBar position="fixed" id="navbar">
                 <Toolbar>
                 <IconButton
-                    color="inherit"
                     aria-label="Open drawer"
                     edge="start"
                     // onClick={toggleDrawer('left', true)}
@@ -37,10 +36,10 @@ function Navbar() {
                     <img src={logo} alt="Sahodaya School Complex Logo" />
                 </div>
                 <div className="nav-menu-container">
-                <Button color="inherit">Home</Button>
-                <Button color="inherit">About</Button>
-                <Button color="inherit">Events</Button>
-                <Button color="inherit">Archives</Button>
+                <Button>Home</Button>
+                <Button>About</Button>
+                <Button>Events</Button>
+                <Button>Archives</Button>
                 </div>
                 </Toolbar>
             </AppBar>

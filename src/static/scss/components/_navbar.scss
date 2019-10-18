@@ -3,15 +3,18 @@
 }
 
 #navbar{
-    height: 70px;
     background: $primary-blue;
+    height: 65px;
+    @include sm{
+        height: 70px;
+    }
     .MuiToolbar-regular{
         padding: 0 16px;
         @include md{
         padding: 0 80px;
-
         }
         .menu-button{
+            color: white;
             @include mr-10;
             display: block;
             @include lg{
@@ -44,6 +47,13 @@
             button{
                 margin-left: 25px;
                 text-transform: capitalize;
+                color: white;
+                border-radius: 0;
+                transition: $transition-main;
+                &:hover{
+                    border-bottom: 2px solid white;
+                    transition: $transition-main;
+                }
             }
         }
     }

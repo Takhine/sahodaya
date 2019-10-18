@@ -1,0 +1,46 @@
+*{
+    font-family: $main-font-family;
+    box-sizing: border-box;
+  }
+
+// Components Styles
+
+  /*BASE STYLES*/
+  html,body{
+    background-color: #ffffff;  
+    height: auto;
+    color: $primary-black;
+  }
+body, h1,h2,h3,h4,h5,h6,p{
+  margin:0;
+  padding:0;
+}
+// Containers
+.container {
+    padding: 84px 14px;
+
+    @at-root hr{
+      border: .5px solid;
+      margin: 10px 0;
+      color: #f0f0f0;
+    }
+    // 320px window width and more
+    @include xs {
+      padding: 74px 16px;
+    }
+    // 768px window width and more
+    @include md {
+    padding: 84px 80px;
+  }
+}
+.header-container{
+    padding-top: 65px;
+    @include xl{
+        padding-top: 0;
+    }
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
