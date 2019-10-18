@@ -73,6 +73,7 @@
 .about-container{
     height: 100%;
     padding-top: 20px;
+    padding-bottom: 20px;
     border-bottom: $section-border;
     @extend .container;
     @include msm{

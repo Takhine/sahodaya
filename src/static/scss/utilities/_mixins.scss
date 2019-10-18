@@ -93,7 +93,7 @@
 // Headings
 @mixin  section-title {
     font-size: $title-font;
-    margin-bottom:10px;
+    margin:20px 0;
     @include xl{
         font-size: $large-font;
     }

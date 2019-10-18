@@ -1,0 +1,74 @@
+.about-page{
+    border-bottom: $section-border;
+    .banner-title{
+        font-size: $xlarge-font;
+        color: white;
+        position: absolute;
+        top: 30%;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    .about-title{
+        @include section-title;
+    }
+    .about-content{
+        @include section-content;
+    }
+}
+
+.objectives-section{
+    padding-top: 20px;
+    border-bottom: $section-border;
+    @extend .container;
+    .objectives-title{
+        @include section-title;
+    }
+    .objectives-card{
+        background: $primary-blue;
+        padding: 20px;
+        .icon-container{
+            width: 100%;
+            text-align: center;
+            img{
+                width: 100%;
+            }
+        }
+        p{
+            text-align: justify;
+            color: white;
+            font-weight: $bold-font;
+        }
+    }
+}
+
+.office-bearers-section{
+    @extend .container;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .office-bearers-title{
+        @include section-title;
+    }
+    .person-card-container{
+        padding: 20px;
+        .person-image-container{
+            img{
+                width: 100%;
+            }
+        }
+        .person-name{
+            text-align: center;
+            font-size: $title-font;
+            color: $primary-grey;
+        }
+        .person-position{
+            text-align: center;
+            font-size: $regular-font;
+            color: $secondary-grey;
+        }
+        .person-description{
+            text-align: justify;
+        }
+    }
+    
+}

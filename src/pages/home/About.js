@@ -2,7 +2,6 @@ import React from 'react';
 import mobileTimeline from 'static/images/mobile-timeline.svg';
 import timeline from 'static/images/timeline.svg';
 import {
-    Button,
     Grid
 } from '@material-ui/core';
 

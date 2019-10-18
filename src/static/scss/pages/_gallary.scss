@@ -1,0 +1,14 @@
+.activities{
+    @include section-title;
+}
+.event-container{
+    .event-subtitle{
+        color: $primary-grey;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .event-description{
+        @include section-content;
+        font-size: $regular-font;
+    }
+}
