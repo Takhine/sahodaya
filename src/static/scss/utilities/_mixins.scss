@@ -1,0 +1,73 @@
+// The smallest of the smallest of devices
+@mixin xxs {
+    @media (max-width:#{$screen-xs-min}) {
+     @content;   
+    }
+}
+// Extra Small devices
+@mixin xs {
+    @media (min-width: #{$screen-xs-min}) {
+        @content;
+    }
+ }
+// Small devices
+@mixin sm {
+    @media (min-width: #{$screen-sm-min}) {
+        @content;
+    }
+ }
+ // Medium devices
+ @mixin md {
+    @media (min-width: #{$screen-md-min}) {
+        @content;
+    }
+ }
+ 
+ // Large devices
+ @mixin lg {
+    @media (min-width: #{$screen-lg-min}) {
+        @content;
+    }
+ }
+ 
+ // Extra large devices
+ @mixin xl {
+    @media (min-width: #{$screen-xl-min}) {
+        @content;
+    }
+ }
+ 
+// Custom devices + Mui
+@mixin rwd($screen) {
+    @media (min-width: $screen+'px') {
+        @content;
+    }
+ }
+ @mixin mmd{
+     @media (min-width: #{$mui-screen-md-min}){
+         @content;
+     }
+ }
+ @mixin msm {
+     @media (min-width: #{$mui-screen-sm-min}){
+         @content;
+     }
+ }
+
+
+//  Margins
+@mixin  ml-10 {
+    margin-left: 10px;
+}
+@mixin  mr-10 {
+    margin-left: 10px;
+}
+@mixin  mt-10 {
+    margin-left: 10px;
+}
+@mixin  mb-10 {
+    margin-left: 10px;
+}
+@mixin  m-10 {
+    margin: 10px;
+}
