@@ -1,7 +1,11 @@
 .grow{
     flex-grow: 1;
 }
-
+.flex-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
 #navbar{
     background: $primary-blue;
     height: 65px;
@@ -67,4 +71,11 @@
         }
     }
     
+    
+}.menu-container#fade-menu{
+    top: 65px !important;
+    a{
+        text-decoration: none;
+        color: $primary-blue;
+    }
 }

@@ -66,7 +66,7 @@ const OfficeBearers = () => {
                         <Grid key={person.id} item xs={12} sm={4} md={3}>
                             <Paper className="person-card-container">
                                 <div className="person-image-container">
-                                    <img src={placeholder} />
+                                    <img src={placeholder} alt="placeholder" />
                                 </div>
                                 <h3 className="person-name">{person.name}</h3>
                                 <h4 className="person-position">{person.position}</h4>

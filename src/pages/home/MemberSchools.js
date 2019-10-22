@@ -2,7 +2,6 @@ import React from 'react';
 import Slider from "react-slick";
 
 const settings = {
-    dots: false,
     infinite: true,
     speed: 1000,
     slidesToShow: 6,
@@ -61,25 +60,25 @@ function MemberSchools() {
             <h2 className="member-schools-title">Member Schools</h2>
             <Slider {...settings}>
                 <div className="slide-container">
-                    <img className="slide" src="https://picsum.photos/id/534/1280/400 " />
+                    <img className="slide" src="https://picsum.photos/id/534/1280/400" alt="Member School" />
                 </div>
                 <div className="slide-container">
-                    <img className="slide" src="https://picsum.photos/id/534/1280/400 " />
+                    <img className="slide" src="https://picsum.photos/id/534/1280/400" alt="Member School" />
                 </div>
                 <div className="slide-container">
-                    <img className="slide" src="https://picsum.photos/id/534/1280/400 " />
+                    <img className="slide" src="https://picsum.photos/id/534/1280/400" alt="Member School" />
                 </div>
                 <div className="slide-container">
-                    <img className="slide" src="https://picsum.photos/id/534/1280/400 " />
+                    <img className="slide" src="https://picsum.photos/id/534/1280/400" alt="Member School" />
                 </div>
                 <div className="slide-container">
-                    <img className="slide" src="https://picsum.photos/id/534/1280/400 " />
+                    <img className="slide" src="https://picsum.photos/id/534/1280/400" alt="Member School" />
                 </div>
                 <div className="slide-container">
-                    <img className="slide" src="https://picsum.photos/id/534/1280/400 " />
+                    <img className="slide" src="https://picsum.photos/id/534/1280/400" alt="Member School"/>
                 </div>
                 <div className="slide-container">
-                    <img className="slide" src="https://picsum.photos/id/534/1280/400 " />
+                    <img className="slide" src="https://picsum.photos/id/534/1280/400" alt="Member School" />
                 </div>
             </Slider>
         </div>

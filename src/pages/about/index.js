@@ -9,7 +9,7 @@ const About = () => {
     return (
         <Layout>
             <div className="header-container about-page">
-                <img src=" https://picsum.photos/id/534/1280/400" alt="Header Image" />
+                <img src=" https://picsum.photos/id/534/1280/400" alt="Header" />
                 <h2 className="banner-title">About us</h2>
                 <div className="header-bottom">
                 <h2 className="about-title">Aim</h2>
@@ -20,7 +20,6 @@ const About = () => {
                     Sahodaya Schools Complex is working tirelessly with a true Sahodaya Spirit, sharing and helping each other whenever needed. With the passage of time
                     Amritsar Sahodaya has become a close-knit family.
                     The turning point of Amritsar Sahodaya was when it successfully hosted the national conference in 2014.</p>
-
             </div>
             </div>
             <Objectives/>

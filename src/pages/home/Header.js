@@ -8,7 +8,7 @@ import {
 function Header() {
     return (
         <div className="header-container">
-            <img src="https://picsum.photos/id/526/1280/400" alt="Header Image"/>
+            <img src="https://picsum.photos/id/526/1280/400" alt="Header"/>
             {/* https://picsum.photos/id/534/1280/400 */}
             <div className="header-bottom">
                 <Grid container spacing={8}>

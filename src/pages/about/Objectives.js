@@ -12,7 +12,7 @@ const Objectives = () => {
                 <Grid item xs={12} sm={6} md={4}>
                     <Paper className="objectives-card">
                         <div className="icon-container">
-                            <img src={Icon} />
+                            <img src={Icon} alt="Objectives Icon" />
                         </div>
                         <hr/>
                         <p>Since the inception of Amritsar Sahodaya Schools Complex in the second half of 80's, to present day, 
@@ -22,7 +22,7 @@ const Objectives = () => {
                 <Grid item xs={12} sm={6} md={4}>
                     <Paper className="objectives-card">
                         <div className="icon-container">
-                            <img src={Icon} />
+                            <img src={Icon} alt="Objectives Icon" />
                         </div>
                         <hr/>
                         <p>Since the inception of Amritsar Sahodaya Schools Complex in the second half of 80's, to present day, 
@@ -32,7 +32,7 @@ const Objectives = () => {
                 <Grid item xs={12} sm={6} md={4}>
                     <Paper className="objectives-card">
                         <div className="icon-container">
-                            <img src={Icon} />
+                            <img src={Icon} alt="Objectives Icon" />
                         </div>
                         <hr/>
                         <p>Since the inception of Amritsar Sahodaya Schools Complex in the second half of 80's, to present day, 

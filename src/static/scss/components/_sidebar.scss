@@ -1,0 +1,15 @@
+.sidebar-list{
+    a{
+        text-decoration: none;
+        color: $primary-blue;
+        .list-item{
+            .MuiListItemIcon-root{
+                min-width: auto;
+                margin-right: 15px;
+            }
+        }
+    }
+}
+.MuiPaper-root.MuiDrawer-paper{
+    width: 250px;
+}
