@@ -8,50 +8,44 @@ import placeholder from 'static/images/placeholder.svg';
 const people = [
     {
         id: 1,
-        name: 'Office Bearer',
-        position: 'Position',
+        name: 'MR. RAJEEV KUMAR GARG',
+        position: 'Principal, Datta Meghe World Academy, Sector 16, Airoli, Navi Mumbai 400708; Thane',
         description: 'Short Description or quote Short Description or quote Short Description or quote'
     },
     {
         id: 2,
-        name: 'Office Bearer',
-        position: 'Position',
+        name: 'MRS. RANJANA JANGRA',
+        position: 'Principal, B. K. Birla Public School Birla College Road, Gauripada Kalyan (W),Thane 421304;',
         description: 'Short Description or quote Short Description or quote Short Description or quote'
     },
     {
         id: 3,
-        name: 'Office Bearer',
-        position: 'Position',
+        name: 'MR. B. ANIL KUMAR',
+        position: 'Principal, Chinmaya Vidyalaya Plot No 201, MIDC Area, Saravali, Vidyanagar, Palghar, Boisar, Maharashtra 401501;',
         description: 'Short Description or quote Short Description or quote Short Description or quote'
     },
     {
         id: 4,
-        name: 'Office Bearer',
-        position: 'Position',
+        name: 'MRS. RAJ ALONI',
+        position: 'Principal, Ramsheth Thakur Public School Plot No-11 Sector-19, Kharghar, Navi Mumbai, Maharashtra 410210',
         description: 'Short Description or quote Short Description or quote Short Description or quote'
     },
     {
         id: 5,
-        name: 'Office Bearer',
-        position: 'Position',
+        name: 'MR. GANESH PARAMESHWARAN',
+        position: 'Principal, Bal Bharati Public School, Plot No 5, Sector 4, Kharghar, Navi Mumbai,Maharashtra 410210',
         description: 'Short Description or quote Short Description or quote Short Description or quote'
     },
     {
         id: 6,
-        name: 'Office Bearer',
-        position: 'Position',
+        name: 'MRS. NANDITA KHANNA',
+        position: 'Principal, Nalanda Public School, Mulund (E),Hari Om Nagar',
         description: 'Short Description or quote Short Description or quote Short Description or quote'
     },
     {
         id: 7,
-        name: 'Office Bearer',
-        position: 'Position',
-        description: 'Short Description or quote Short Description or quote Short Description or quote'
-    },
-    {
-        id: 8,
-        name: 'Office Bearer',
-        position: 'Position',
+        name: 'MRS. REKHA KAPUR',
+        position: 'Principal, S.S.P Ms Sri Ravi Shankar vidyamandir, Borivali(E)',
         description: 'Short Description or quote Short Description or quote Short Description or quote'
     },
 ]

@@ -3,9 +3,6 @@
 .header-container{
     border-bottom: $section-border;
     height: 100%;
-    @include msm{
-        height: 100vh;
-    }
     img{
         width: 100%;
         -webkit-filter: blur(1px);
@@ -32,7 +29,6 @@
                 width: inherit;
                 border-radius:$card-border-radius;
                 @include msm{
-                    position: absolute;
                     right: 0;
                     left: 0;
                     top: -25px;
@@ -76,9 +72,6 @@
     padding-bottom: 20px;
     border-bottom: $section-border;
     @extend .container;
-    @include msm{
-        height:100vh;
-    }
     p{
         text-align: justify;
     }
