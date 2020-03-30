@@ -4,7 +4,7 @@ import {
     Paper
 } from '@material-ui/core';
 import Icon from 'static/images/cbse-logo.png';
-
+import arrow from 'static/images/icons/list-arrow.svg';
 const objectives = [
     {
         id: 1,
@@ -103,13 +103,10 @@ const Objectives = () => {
                 {objectives.map((objective => {
                     return (
                         <Grid key={objective.id} item xs={12} sm={6}>
-                            <Paper className="objectives-card">
-                                {/* <div className="icon-container">
-                                    <img src={Icon} alt="Objectives Icon" />
-                                </div> */}
-                                {/* <hr /> */}
-                                <p>{objective.content}</p>
-                            </Paper>
+                            <div className="list-container">
+                                <img className="list-arrow" src={arrow} alt="List Arrow" />
+                                <p className="list-content">{objective.content}</p>
+                            </div>
                         </Grid>
                     )
                 }))}

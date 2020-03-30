@@ -93,14 +93,23 @@ const Navbar = () => {
                             TransitionComponent={Fade}
                             className="menu-container"
                         >
+                            <a href="http://cbse.nic.in/newsite/circulars.html" target="_blank" rel="noopener noreferrer">
+                                <MenuItem onClick={handleClose}>Latest CBSE Circulars</MenuItem>
+                            </a>
                             <a href="http://cbse.nic.in/newsite/archives.html" target="_blank" rel="noopener noreferrer">
-                                <MenuItem onClick={handleClose}>CBSE Circular Archives</MenuItem>
+                                <MenuItem onClick={handleClose}>Circulars Archives</MenuItem>
+                            </a>
+                            <a href="http://cbseacademic.nic.in/circulars_archive.html" target="_blank" rel="noopener noreferrer">
+                                <MenuItem onClick={handleClose}>Academic Circulars</MenuItem>
+                            </a>
+                            <a href="http://cbseacademic.nic.in/skill-education.html" target="_blank" rel="noopener noreferrer">
+                                <MenuItem onClick={handleClose}>Skill Education</MenuItem>
                             </a>
                             <a href="http://cbseaff.nic.in/cbse_aff/frmCircular.aspx" target="_blank" rel="noopener noreferrer">
-                                <MenuItem onClick={handleClose}>CBSE Affiliation Circulars</MenuItem>
+                                <MenuItem onClick={handleClose}>Affiliation Circulars</MenuItem>
                             </a>
-                            <a href="http://cbseacademic.nic.in/circulars.html" target="_blank" rel="noopener noreferrer">
-                                <MenuItem onClick={handleClose}>CBSE Academic Circulars</MenuItem>
+                            <a href="https://www.maharashtra.gov.in/1145/Government-Resolutions" target="_blank" rel="noopener noreferrer">
+                                <MenuItem onClick={handleClose}>Maha-Govt. GRs</MenuItem>
                             </a>
                         </Menu>
                     </div>

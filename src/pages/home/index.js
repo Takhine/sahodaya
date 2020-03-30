@@ -15,7 +15,7 @@ function Home() {
                 {/* About */}
                 <About/>
                 {/* Member Schools Slider */}
-                <MemberSchools/>
+                {/* <MemberSchools/>*/}
             </div>
         </Layout>
     );

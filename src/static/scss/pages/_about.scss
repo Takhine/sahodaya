@@ -24,20 +24,15 @@
     .objectives-title{
         @include section-title;
     }
-    .objectives-card{
-        background: $primary-blue;
-        padding: 20px;
-        .icon-container{
-            width: 100%;
-            text-align: center;
-            img{
-                width: 35%;
-            }
+    .list-container{
+        display: flex;
+        align-items: center;
+        .list-arrow{
+            width: 40px;
+            margin-right: 12px;
         }
-        p{
-            text-align: justify;
-            color: white;
-            font-weight: $bold-font;
+        .list-content{
+            
         }
     }
 }
@@ -51,15 +46,22 @@
     }
     .person-card-container{
         padding: 20px;
+        height: 100%;
         .person-image-container{
+            max-height: 250px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
             img{
                 width: 100%;
+                max-width: 250px;
             }
         }
         .person-name{
             text-align: center;
             font-size: $title-font;
             color: $primary-grey;
+            margin-top: 12px;
         }
         .person-position{
             text-align: center;
