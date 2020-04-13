@@ -1,4 +1,103 @@
 .footer{
     background: $primary-black;
-    @extend .container;
+    padding: 24px 14px;
+    @include xs{
+        padding: 32px 16px;
+    }
+    @include md{
+        padding: 44px 80px;
+    }
+    .copyright{
+        justify-content: center;
+        color: white;
+        display: flex;
+    }
+    hr{
+        color: $primary-blue;
+        margin: 14px;
+        border: 1px solid;
+        @include xs{
+            margin: 24px 16px;
+        }
+        @include md{
+            margin: 24px 80px;
+        }
+    }
+    .footer-logo-container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        .footer-logo{
+            width: 100%;
+            max-width: 200px;
+            border-radius: 4px;
+            box-shadow: $main-box-shadow;
+        }
+        .cta-button{
+            @include primary-button;
+            width: 200px;
+        }
+    }
+
+    .title-container{
+        max-width: 129px;
+        &.archive{
+        max-width: 100px;
+            
+        }
+        .underline{
+            max-width: inherit;
+            margin-bottom: 20px;
+            margin-top: 2px;
+
+        }
+    }
+    .footer-subtitle{
+        color: white;
+        font-size: 24px;
+        margin-top: 12px;
+    }
+    .footer-menu-container{
+        a{
+            display: inline;
+            text-decoration: none;
+        }
+        button{
+            margin-right: 25px;
+            font-size: 20px;
+            font-weight: 400;
+            text-transform: capitalize;
+            color: white;
+            border-radius: 0;
+            transition: $transition-main;
+            &:hover{
+                color: $primary-blue;
+                transition: $transition-main;
+            }
+        }
+    }
+    .footer-archives-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        a{
+            display: block;
+            text-decoration: none;
+            margin-bottom: 12px;
+        }
+        button{
+            margin-right: 25px;
+            font-size: 20px;
+            font-weight: 400;
+            text-transform: capitalize;
+            color: white;
+            border-radius: 0;
+            transition: $transition-main;
+            &:hover{
+                color: $primary-blue;
+                transition: $transition-main;
+            }
+        }
+    }
 }

@@ -31,6 +31,10 @@
                 font-size: $title-font;
             }
         }
+        .navbar-title{
+            text-decoration: none;
+            color: white;
+        }
         .logo-container{
             flex-grow: 0;
             @include lg{

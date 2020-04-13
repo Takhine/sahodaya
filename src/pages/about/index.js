@@ -4,15 +4,14 @@ import Layout from 'components/Layout';
 // Components
 import Objectives from './Objectives';
 import OfficeBearers from './OfficeBearers';
-
+import BreadcrumbBar from 'components/BreadcrumbBar';
 import aboutBanner from 'static/images/about-header.jpg';
 
 const About = () => {
     return (
         <Layout>
             <div className="header-container about-page">
-                <img src={aboutBanner} alt="Header" />
-                <h2 className="banner-title">About us</h2>
+            <BreadcrumbBar page="About" />
                 <div className="header-bottom">
                     <h2 className="about-title">Aim</h2>
                     <div className="about-content">
