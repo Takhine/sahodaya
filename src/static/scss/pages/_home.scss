@@ -3,10 +3,6 @@
 .header-container{
     border-bottom: $section-border;
     height: 100%;
-    img{
-        width: 100%;
-        -webkit-filter: blur(1px);
-    }
     .header-bottom{
         @extend .container;
         padding-top: 0;

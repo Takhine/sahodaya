@@ -14,6 +14,15 @@
     }
     .about-content{
         @include section-content;
+        .aim-container{
+            display: flex;
+            align-items: center;
+        }
+        .aim-arrow{
+            min-width: 40px;
+            width: 40px;
+            margin-right: 12px;
+        }
     }
 }
 
@@ -28,7 +37,7 @@
         display: flex;
         align-items: center;
         .list-arrow{
-            width: 40px;
+            min-width: 40px;
             margin-right: 12px;
         }
         .list-content{
