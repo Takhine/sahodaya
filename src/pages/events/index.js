@@ -1,40 +1,10 @@
 import React from "react";
 import Layout from "components/Layout";
 import BreadcrumbBar from "components/BreadcrumbBar";
-
 import { GridList, GridListTile } from "@material-ui/core/";
-
 import withWidth, { isWidthUp } from "@material-ui/core/withWidth";
+import {tileData} from "components/images";
 
-const tileData = [
-  {
-    id: 1,
-    img: "https://picsum.photos/id/534/1280/400",
-    title: "Image",
-    cols: 2,
-  },
-  {
-    id: 2,
-    img: "https://picsum.photos/id/534/1280/400",
-    title: "Image",
-    cols: 1,
-  },
-  {
-    id: 3,
-    img: "https://picsum.photos/id/534/1280/400",
-    title: "Image",
-  },
-  {
-    id: 4,
-    img: "https://picsum.photos/id/534/1280/400",
-    title: "Image",
-  },
-  {
-    id: 5,
-    img: "https://picsum.photos/id/534/1280/400",
-    title: "Image",
-  },
-];
 const Events = (props) => {
   const getGridListCols = () => {
     if (isWidthUp("lg", props.width)) {

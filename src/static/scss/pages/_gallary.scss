@@ -13,5 +13,6 @@
     .event-description{
         @include section-content;
         font-size: $regular-font;
+        margin-bottom: 24px;
     }
 }

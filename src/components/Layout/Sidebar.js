@@ -9,7 +9,6 @@ import { NavLink } from 'react-router-dom';
 import Home from '@material-ui/icons/Home';
 import People from '@material-ui/icons/People';
 import Collections from '@material-ui/icons/Collections';
-import School from '@material-ui/icons/School';
 
 
 
@@ -35,13 +34,7 @@ const navItems = [
         outlink: '/events',
         name: 'Events',
         icon: <Collections />,
-    },
-    {
-        id: 4,
-        outlink: '/schools',
-        name: 'Schools',
-        icon: <School />,
-    },
+    }
 ]
 
 const archives = [

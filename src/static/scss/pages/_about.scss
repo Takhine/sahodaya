@@ -11,18 +11,25 @@
     }
     .about-title{
         @include section-title;
+        margin-bottom: 0;
     }
     .about-content{
         @include section-content;
         .aim-container{
             display: flex;
             align-items: center;
+            .aim-text{
+                text-align: justify;
+            }
         }
         .aim-arrow{
             min-width: 40px;
             width: 40px;
             margin-right: 12px;
         }
+    }
+    .about-image{
+        width: 100%;
     }
 }
 

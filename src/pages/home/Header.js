@@ -5,12 +5,12 @@ import {
     Grid
   } from '@material-ui/core';
 
-import headerBanner from 'static/images/home-header.jpg';
+import headerBanner from 'static/images/home-header-desktop.jpg';
 
 function Header() {
     return (
         <div className="header-container">
-            <img src={headerBanner} alt="Header"/>
+            <img className="header-image" src={headerBanner} alt="Header"/>
             {/* https://picsum.photos/id/534/1280/400 */}
             <div className="header-bottom">
                 <Grid container spacing={8}>

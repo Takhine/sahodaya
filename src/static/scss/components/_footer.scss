@@ -11,6 +11,7 @@
         justify-content: center;
         color: white;
         display: flex;
+        text-align: center;
     }
     hr{
         color: $primary-blue;
@@ -24,6 +25,9 @@
         }
     }
     .footer-logo-container{
+        margin: auto;
+        padding: 0;
+        height: 100%;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -31,20 +35,31 @@
         .footer-logo{
             width: 100%;
             max-width: 200px;
-            border-radius: 4px;
+            border-top-right-radius: 4px;
+            border-top-left-radius: 4px;
             box-shadow: $main-box-shadow;
         }
         .cta-button{
             @include primary-button;
             width: 200px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+
         }
     }
 
     .title-container{
-        max-width: 129px;
+        width: 100%;
+        text-align: center;
+        @include msm{
+            text-align: unset;
+            max-width: 150px;
+        }
         &.archive{
-        max-width: 100px;
-            
+            @include msm{
+            text-align: unset;
+                max-width: 100px;
+            }
         }
         .underline{
             max-width: inherit;
@@ -59,12 +74,20 @@
         margin-top: 12px;
     }
     .footer-menu-container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        @include msm{
+            display: inline;
+        }
         a{
             display: inline;
             text-decoration: none;
         }
         button{
-            margin-right: 25px;
+            @include msm{
+                margin-right: 25px;
+            }
             font-size: 20px;
             font-weight: 400;
             text-transform: capitalize;
@@ -79,15 +102,23 @@
     }
     .footer-archives-container{
         display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
+        flex-direction: column;
+        text-align: center;
+
+        @include msm{
+            flex-wrap: wrap;
+            flex-direction: row;
+            text-align: unset;
+        }
         a{
             display: block;
             text-decoration: none;
             margin-bottom: 12px;
         }
         button{
-            margin-right: 25px;
+            @include msm{
+                margin-right: 25px;
+            }
             font-size: 20px;
             font-weight: 400;
             text-transform: capitalize;
