@@ -4,7 +4,6 @@ import Layout from 'components/Layout';
 // Components
 import Header from './Header';
 import About from './About';
-import MemberSchools from './MemberSchools';
 
 function Home() {
     return (

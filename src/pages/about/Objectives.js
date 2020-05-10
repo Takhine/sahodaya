@@ -1,9 +1,7 @@
 import React from 'react';
 import {
     Grid,
-    Paper
 } from '@material-ui/core';
-import Icon from 'static/images/cbse-logo.png';
 import arrow from 'static/images/icons/list-arrow.svg';
 const objectives = [
     {

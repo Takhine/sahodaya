@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="450" height="109.854" viewBox="0 0 450 109.854">
-  <g id="Group_412" data-name="Group 412" transform="translate(-127 -1255)">
-    <text id="Elementary" transform="translate(178 1274)" fill="#252525" font-size="19" font-family="Quicksand-Regular, Quicksand"><tspan x="-50.198" y="0">Elementary</tspan></text>
-    <text id="High_School" data-name="High School" transform="translate(319 1274)" fill="#252525" font-size="19" font-family="Quicksand-Regular, Quicksand"><tspan x="-51.861" y="0">High School</tspan></text>
-    <text id="College" transform="translate(445 1274)" fill="#252525" font-size="19" font-family="Quicksand-Regular, Quicksand"><tspan x="-32.347" y="0">College</tspan></text>
-    <text id="Career" transform="translate(547 1274)" fill="#252525" font-size="19" font-family="Quicksand-Regular, Quicksand"><tspan x="-29.592" y="0">Career</tspan></text>
-    <text id="By_your_side_through_every_phase_of_education" data-name="By your side through every phase of education" transform="translate(233.331 1361.854)" fill="#252525" font-size="12" font-family="Quicksand-Bold, Quicksand" font-weight="700" opacity="0.495"><tspan x="0" y="0">By your side through every phase of education</tspan></text>
+<svg xmlns="http://www.w3.org/2000/svg" width="461.606" height="110.854" viewBox="0 0 461.606 110.854">
+  <g id="Group_412" data-name="Group 412" transform="translate(-127.802 -1253)">
+    <text id="Elementary" transform="translate(127.802 1274)" fill="#252525" font-size="19" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Mentoring</tspan></text>
+    <text id="High_School" data-name="High School" transform="translate(267.139 1274)" fill="#252525" font-size="19" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Upskilling</tspan></text>
+    <text id="College" transform="translate(400.653 1274)" fill="#252525" font-size="19" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Training</tspan></text>
+    <text id="Career" transform="translate(510.408 1274)" fill="#252525" font-size="19" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Guidance</tspan></text>
+    <text id="By_your_side_through_every_phase_of_education" data-name="By your side through every phase of education" transform="translate(254.331 1360.854)" fill="#252525" font-size="12" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" opacity="0.495"><tspan x="0" y="0">By your side through every phase</tspan></text>
     <g id="Group_368" data-name="Group 368" transform="translate(164.005 1296.187)">
       <rect id="Rectangle_141" data-name="Rectangle 141" width="18.262" height="18.262" rx="5" fill="#00bcd4"/>
       <rect id="Rectangle_142" data-name="Rectangle 142" width="18.262" height="18.262" rx="5" transform="translate(127.9)" fill="#00bcd4"/>

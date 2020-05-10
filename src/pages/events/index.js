@@ -23,10 +23,10 @@ const Events = (props) => {
     <Layout>
       <BreadcrumbBar page="Events" />
       <div className="container events-page">
-        <h1 className="activities">Activities</h1>
+        <h1 className="activities">Events</h1>
         <hr />
         <div className="event-container">
-          <h2 className="event-subtitle">Event Name</h2>
+          <h2 className="event-subtitle">Our Journey Till 2020</h2>
           <p className="event-description">
             Sahodaya, a concept literally meaning ‘’Rising Together’ came into
             being in the year 1986, to facilitate synergy of ideas among the
