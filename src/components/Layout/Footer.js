@@ -84,7 +84,7 @@ const Footer = () => {
         </Grid>
       </Grid>
       <hr/>
-      <small className="copyright">Copyright &copy; Sahodaya School Complex MMR OMMR</small>
+      <small className="copyright">Copyright &copy; Sahodaya Schools Complex MMR & OMMR</small>
     </div>
   );
 };

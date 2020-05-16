@@ -40,19 +40,34 @@ const navItems = [
 const archives = [
     {
         id: 1,
-        outlink: 'http://cbse.nic.in/newsite/archives.html',
-        name: 'CBSE Circular Archives',
+        outlink: 'http://cbse.nic.in/newsite/circulars.html',
+        name: 'Latest CBSE Circulars',
     },
     {
         id: 2,
-        outlink: 'http://cbseaff.nic.in/cbse_aff/frmCircular.aspx',
-        name: 'CBSE Affiliation Circulars',
+        outlink: 'http://cbse.nic.in/newsite/archives.html',
+        name: 'Circulars Archives',
     },
     {
         id: 3,
-        outlink: 'http://cbseacademic.nic.in/circulars.html',
-        name: 'CBSE Academic Circulars',
+        outlink: 'http://cbseacademic.nic.in/circulars_archive.html',
+        name: 'Academic Circulars',
     },
+    {
+        id: 4,
+        outlink: 'http://cbseacademic.nic.in/skill-education.html',
+        name: 'Skill Education'
+    },
+    {
+        id: 5,
+        outlink: 'http://cbseaff.nic.in/cbse_aff/frmCircular.aspx',
+        name: 'Affiliation Circulars'
+    },
+    {
+        id: 6,
+        outlink: 'https://www.maharashtra.gov.in/1145/Government-Resolutions',
+        name: 'Maha-Govt. GRs'
+    }
 ]
 
 const Sidebar = (props) => {

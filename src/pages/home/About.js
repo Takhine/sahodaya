@@ -14,7 +14,7 @@ function About() {
               Sahodaya, a concept literally meaning ‘’Rising Together’ came into
               being in the year 1986, to facilitate synergy of ideas among the
               schools of CBSE for excellence in the education. As Sahodaya
-              School Complex, we voluntarily come together to share our
+              Schools Complex, we voluntarily come together to share our
               innovative practices in all aspects of school education including
               curriculum design, evaluation and pedagogy. We provide support for
               teachers and students, in order for them to keep up with ever

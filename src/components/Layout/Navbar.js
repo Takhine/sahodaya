@@ -74,7 +74,7 @@ const Navbar = () => {
             {leftSideList("left")}
           </Drawer>
           <NavLink className="navbar-title" exact to="/">
-            <h2>Sahodaya School Complex MMR OMMR</h2>
+            <h2>Sahodaya Schools Complex MMR & OMMR</h2>
           </NavLink>
           <div className="grow" />
           <div className="logo-container">
