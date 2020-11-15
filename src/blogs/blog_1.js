@@ -4,16 +4,31 @@ export const blog_1 = {
   next: 2,
   author: "",
   date: "",
-  title: "",
+  title: "Test Title",
   blog_image: "",
   banner_image:
     "http://euphoricvictorians.com/CDM2020Mumbai/test%20images/1.jpg",
-    side_add: "",
-    bottom_add: "",
-  section_1: "",
-  section_2: "",
-  section_3: "",
-  section_4: "",
-  section_5: "",
+  sections: [
+    {
+      id: 1,
+      type: "normal"
+    },
+    {
+      id: 2,
+      type: "side-ad"
+    },
+    {
+      id: 3,
+      type: "image-col"
+    },
+    {
+      id: 4,
+      type: "normal"
+    },
+    {
+      id: 5,
+      type: "center-ad"
+    },
+  ],
 };
 
