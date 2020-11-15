@@ -8,10 +8,12 @@ import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="footer">
-      <Grid style={{width: '100%', margin: 'unset'}} container spacing={8}>
+      <Grid style={{ width: "100%", margin: "unset" }} container spacing={8}>
         <Grid className="footer-logo-container" item sm={12} md={3}>
           <img className="footer-logo" src={logo} alt="Images" />
-          <Button className="cta-button">Download Form</Button>
+          <a className="noDecor" href="https://forms.gle/3geT2o6SSJ88QsaHA" target="_blank" rel="noopener noreferrer">
+            <Button className="cta-button">Download Form</Button>
+          </a>
         </Grid>
         <Grid item container xs={12} sm={9}>
           <Grid className="footer-links-container" item xs={12}>
@@ -83,8 +85,10 @@ const Footer = () => {
           </Grid>
         </Grid>
       </Grid>
-      <hr/>
-      <small className="copyright">Copyright &copy; Sahodaya Schools Complex MMR & OMMR</small>
+      <hr />
+      <small className="copyright">
+        Copyright &copy; Sahodaya Schools Complex MMR & OMMR
+      </small>
     </div>
   );
 };
