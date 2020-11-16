@@ -74,7 +74,7 @@ const Navbar = () => {
             {leftSideList("left")}
           </Drawer>
           <NavLink className="navbar-title" exact to="/">
-            <h2>Sahodaya Schools Complex MMR & OMMR</h2>
+            <h2>Sahodaya Schools Complex MMR &amp; OMMR</h2>
           </NavLink>
           <div className="grow" />
           <div className="logo-container">
@@ -88,6 +88,9 @@ const Navbar = () => {
             </NavLink>
             <NavLink exact to="/about">
               <Button>About</Button>
+            </NavLink>
+            <NavLink exact to="/blogs">
+              <Button>Blogs</Button>
             </NavLink>
             <NavLink exact to="/events">
               <Button>Events</Button>

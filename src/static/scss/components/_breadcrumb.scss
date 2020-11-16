@@ -1,13 +1,6 @@
 .breadcrumb-container{
     padding: 24px;
         // 320px window width and more
-        @include xs {
-            margin: 74px 16px;
-          }
-          // 768px window width and more
-          @include md {
-          margin: 84px 80px 12px;
-        }
        .breadcrumb-link{
            text-decoration: none;
            color: $primary-blue;

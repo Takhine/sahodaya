@@ -30,6 +30,12 @@ const navItems = [
         icon: <People />,
     },
     {
+        id: 2,
+        outlink: '/blogs',
+        name: 'Blogs',
+        icon: <Collections />,
+    },
+    {
         id: 3,
         outlink: '/events',
         name: 'Events',

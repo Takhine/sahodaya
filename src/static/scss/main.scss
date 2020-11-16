@@ -1,3 +1,5 @@
+@import '~antd/dist/antd.css';
+
 @import './utilities/breakpoints';
 @import './utilities/colors';
 @import './utilities/mixins';
@@ -14,6 +16,8 @@
 @import './components/footer';
 @import './components/sidebar';
 @import './components/breadcrumb';
+@import './components/sticky-ad';
+
 
 
 
