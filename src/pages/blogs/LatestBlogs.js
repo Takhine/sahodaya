@@ -2,9 +2,7 @@ import React from "react";
 import { Row, Col, Image } from "antd";
 import { PLACEHOLDER } from "../../constants";
 // Latest Blogs
-import {blog_1} from "blogs/blog_1";
-import {blog_2} from "blogs/blog_2";
-import {blog_3} from "blogs/blog_3";
+import {latestBlogs} from "blogs/latest-blogs";
 
 const LatestBlog = ({
   author,
@@ -41,9 +39,10 @@ const LatestBlog = ({
   );
 };
 export default function LatestBlogs() {
+  console.log(latestBlogs)
   return (
     <div className="latest-blogs-container">
-      {[blog_1, blog_2, blog_3].map((blog) => (
+      {latestBlogs.map((blog) => (
         <LatestBlog key={blog.id} {...blog} />
       ))}
     </div>

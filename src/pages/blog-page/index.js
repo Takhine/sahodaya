@@ -3,12 +3,18 @@ import Layout from "components/Layout";
 import { useParams } from "react-router-dom";
 import { getSectionContent } from "helpers";
 import BlogBreadcrumb from "components/BlogBreadcrumb";
+// Components
+import Header from "./Header";
+import Banner from "../blogs/Banner";
+import NextPrev from "./NextPrev";
+import Recommended from "./Recommended";
+
+
 export default function BlogPage() {
   const { blogId } = useParams();
   const [blog, setBlog] = useState({
     loading: true,
-    prev: 0,
-    next: 1,
+    next_prev: {},
     author: "",
     date: "",
     title: "",
@@ -24,8 +30,7 @@ export default function BlogPage() {
         title: blogContent.title,
         date: blogContent.date,
         author: blogContent.author,
-        next: blogContent.next,
-        prev: blogContent.prev,
+        next_prev: blogContent.next_prev,
         banner_image: blogContent.banner_image,
         sections: blogContent.sections,
       });
@@ -36,16 +41,15 @@ export default function BlogPage() {
     fetchBlog();
   }, [blogId]);
 
-  const { title, sections } = blog;
+  const { title, author, date, sections, banner_image, next_prev } = blog;
   return (
     <Layout>
       <div className="header-container blog-page">
         <BlogBreadcrumb page={title} />
-
-        <h1>Title</h1>
         {/* Banner */}
-
+        <Banner banner_image={banner_image} />
         {/* Main Section */}
+        <Header title={title} author={author} date={date} />
         {sections.map((section) => (
           <section key={section.id} className="section-container">
             {getSectionContent(section)}
@@ -53,7 +57,9 @@ export default function BlogPage() {
         ))}
 
         {/* Next/Prev Section */}
+        <NextPrev {...next_prev} />
         {/* Recommended Articles */}
+        <Recommended />
       </div>
     </Layout>
   );
