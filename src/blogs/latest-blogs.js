@@ -11,3 +11,15 @@ export const latestBlogs = [
     blog2,
     blog3
 ];
+
+export const homeBlogs = [
+    blog1,
+    blog2,
+    blog3,
+    blog1,
+    blog2,
+    blog3,
+    blog1,
+    blog2,
+    blog3
+]

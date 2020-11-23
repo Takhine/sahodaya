@@ -21,8 +21,8 @@ const Events = (props) => {
   };
   return (
     <Layout>
+      <div className="header-container events-page">
       <BreadcrumbBar page="Events" />
-      <div className="container events-page">
         <h1 className="activities">Events</h1>
         <hr />
         <div className="event-container">

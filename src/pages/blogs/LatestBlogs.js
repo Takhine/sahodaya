@@ -14,8 +14,8 @@ const LatestBlog = ({
 }) => {
   return (
     <div className="latest-blog">
-      <Row gutter={12}>
-        <Col xs={24} sm={8} md={12}>
+      <Row gutter={16}>
+        <Col xs={24} md={16} xl={12}>
           <div className="image-section">
             <Image
               width="100%"
@@ -24,7 +24,7 @@ const LatestBlog = ({
             />
           </div>
         </Col>
-        <Col xs={24} sm={16} md={12}>
+        <Col xs={24} md={8} xl={12}>
           <div className="content-section">
             <h2 className="content-heading">{title}</h2>
             <p className="content-summary">"{summary}"</p>

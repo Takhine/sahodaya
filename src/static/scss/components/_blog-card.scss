@@ -1,0 +1,38 @@
+.recommended-title{
+    @include section-title;
+}
+.card-col{
+    margin-bottom: 24px;
+}
+.blog-card{
+    height: 100%;
+    .ant-card-body{
+        padding-bottom: 42px;
+    }
+    .ant-card-meta{
+        .ant-card-meta-detail{
+            .ant-card-meta-title{
+                font-size: 2rem;
+                font-weight: 600;
+            }
+            .ant-card-meta-description{
+                font-size: 1rem;
+                font-family: $bold-font-family;
+                font-weight: 300;
+            }
+        }
+    }
+    .content-footer{
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 0 24px;
+        .date, .member{
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+    }
+}

@@ -10,7 +10,10 @@ export default function SideAd({ section }) {
           <p className="section-content">{content}</p>
         </Col>
         <Col xs={24} md={8} lg={6}>
+          <div style={{position: "relative"}}>
           <Image className="side-ad" src={ad} alt={adAlt} width="100%" />
+          <span className="ad-tag">Sponsored</span>     
+          </div>
         </Col>
       </Row>
     </section>

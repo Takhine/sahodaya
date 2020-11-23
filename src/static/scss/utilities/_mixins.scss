@@ -93,7 +93,10 @@
 // Headings
 @mixin  section-title {
     font-size: $title-font;
+    color: $dark-blue;
+    font-weight: 600;
     margin:20px 0;
+    font-family: $quicksand-font-family;
     @include xl{
         font-size: $large-font;
     }

@@ -7,6 +7,7 @@ import OfficeBearers from "./OfficeBearers";
 import BreadcrumbBar from "components/BreadcrumbBar";
 import aboutHeader from "static/images/about-header.jpg";
 import listArrow from "static/images/icons/list-arrow-2.svg";
+import FadeIn from "react-fade-in";
 
 const aimList = [
   {
@@ -39,8 +40,8 @@ const About = () => {
     <Layout>
       <div className="header-container about-page">
         <BreadcrumbBar page="About" />
-        <div className="header-bottom">
-        <h2 className="about-title">Aim</h2>
+        <div>
+          <h2 className="about-title">Aim</h2>
           <Grid container spacing={6}>
             <Grid item xs={12} md={6}>
               <div className="about-content">
@@ -49,14 +50,16 @@ const About = () => {
                 Complex:
                 <div className="aim">
                   {aimList.map((item) => (
-                    <div className="aim-container" key={item.id}>
-                      <img
-                        className="aim-arrow"
-                        src={listArrow}
-                        alt="List Arrow"
-                      />
-                      <p className="aim-text">{item.aim}</p>
-                    </div>
+                    <FadeIn key={item.id}>
+                      <div className="aim-container">
+                        <img
+                          className="aim-arrow"
+                          src={listArrow}
+                          alt="List Arrow"
+                        />
+                        <p className="aim-text">{item.aim}</p>
+                      </div>
+                    </FadeIn>
                   ))}
                 </div>
               </div>
@@ -70,9 +73,9 @@ const About = () => {
             </Grid>
           </Grid>
         </div>
+        <Objectives />
+        <OfficeBearers />
       </div>
-      <Objectives />
-      <OfficeBearers />
     </Layout>
   );
 };

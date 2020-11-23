@@ -7,7 +7,7 @@
     justify-content: flex-end;
 }
 #navbar{
-    background: $primary-blue;
+    background: $dark-blue;
     height: 65px;
     @include sm{
         height: 70px;
@@ -21,12 +21,13 @@
             color: white;
             @include mr-10;
             display: block;
-            @include lg{
+            @include xl{
                 display: none;
             }
         }
         h2{
             font-size: $small-font;
+            color: white;
             @include sm{
                 font-size: $title-font;
             }
@@ -37,8 +38,13 @@
         }
         .logo-container{
             flex-grow: 0;
-            @include lg{
+            @include xl{
                 flex-grow: 1;
+                position: absolute;
+                left: 0;
+                right: 0;
+                display: flex;
+                justify-content: center;            
             }
             img{
                 width: 82px;
@@ -49,7 +55,7 @@
         }
         .nav-menu-container{
             display: none;
-            @include lg{
+            @include xl{
                 display: block;
             }
             a{

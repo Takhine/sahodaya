@@ -1,0 +1,34 @@
+.blogs-page{
+    @extend .container;
+    .latest-blog{
+        .image-section{
+
+        }
+        .content-section{
+            .content-heading{
+                font-weight: 600;
+                font-size: 2.3rem;
+            }
+            .content-summary{
+                font-family: $bold-font-family;
+                font-weight: 300;
+                font-size: 1.3rem;
+            }
+            .content-footer{
+                display: flex;
+                margin-top: 12px;
+                .date{
+                    padding-right: 12px;
+                    border-right: 1px solid;
+                }
+                .member{
+                    padding-left: 12px;
+                }
+                .date, .member{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+
+    }
+}

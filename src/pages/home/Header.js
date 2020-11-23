@@ -1,6 +1,6 @@
 import React from "react";
 import { Paper, Button, Grid } from "@material-ui/core";
-
+import FadeIn from 'react-fade-in';
 import headerBanner from "static/images/home-header-desktop.jpg";
 
 function Header() {
@@ -8,13 +8,15 @@ function Header() {
     <div className="header-container">
       <img className="header-image" src={headerBanner} alt="Header" />
       {/* https://picsum.photos/id/534/1280/400 */}
-      <div className="header-bottom">
+      <div className="header-bottom home-content">
         <Grid container spacing={8}>
           <Grid className="cta-grid" item xs={12} sm={6}>
             <Paper className="cta-container">
+            <FadeIn>
               <h3 className="cta-message">
                 Take a leap towards excellence with us
               </h3>
+              </FadeIn>
               <small className="cta-quote">
                 <q>
                   <i>
@@ -36,7 +38,9 @@ function Header() {
             </Paper>
           </Grid>
           <Grid className="welcome-grid" item xs={12} sm={6}>
+            <FadeIn>
             <h1>Welcome to Mumbai Sahodaya</h1>
+            </FadeIn>
             <p>
               Since the inception of Sahodaya MMR and OMMR in 2009, to the
               present day, various efforts have been made to provide the right

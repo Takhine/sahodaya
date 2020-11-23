@@ -1,92 +1,95 @@
-.about-page{
-    border-bottom: $section-border;
-    .banner-title{
-        font-size: $xlarge-font;
-        color: white;
-        position: absolute;
-        top: 30%;
-        left: 0;
-        right: 0;
-        text-align: center;
+.about-page {
+  border-bottom: $section-border;
+  background-color: #f2f7f9;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='1' viewBox='0 0 40 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v1H0z' fill='%231ca6f6' fill-opacity='0.15' fill-rule='evenodd'/%3E%3C/svg%3E");
+  @extend .container;
+  .banner-title {
+    font-size: $xlarge-font;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  .about-title {
+    @include section-title;
+    margin-bottom: 0;
+    color: $dark-blue;
+    font-weight: 600;
+  }
+  .about-content {
+    @include section-content;
+    font-size: 1.4rem !important;
+    .aim-container {
+      display: flex;
+      align-items: center;
+      .aim-text {
+        text-align: justify;
+        font-size: 1.3rem;
+      }
     }
-    .about-title{
-        @include section-title;
-        margin-bottom: 0;
+    .aim-arrow {
+      min-width: 40px;
+      width: 40px;
+      margin-right: 12px;
     }
-    .about-content{
-        @include section-content;
-        .aim-container{
-            display: flex;
-            align-items: center;
-            .aim-text{
-                text-align: justify;
-            }
-        }
-        .aim-arrow{
-            min-width: 40px;
-            width: 40px;
-            margin-right: 12px;
-        }
-    }
-    .about-image{
-        width: 100%;
-    }
+  }
+  .about-image {
+    width: 100%;
+    box-shadow: $main-box-shadow;
+  }
 }
 
-.objectives-section{
-    padding-top: 20px;
-    border-bottom: $section-border;
-    @extend .container;
-    .objectives-title{
-        @include section-title;
+.objectives-section {
+  padding-top: 20px;
+  border-bottom: $section-border;
+  .objectives-title {
+    @include section-title;
+  }
+  .MuiGrid-container {
+    box-shadow: $main-box-shadow;
+    background: white;
+    border-radius: 12px;
+  }
+  .list-container {
+    display: flex;
+    align-items: center;
+    .list-arrow {
+      min-width: 40px;
+      margin-right: 12px;
     }
-    .list-container{
-        display: flex;
-        align-items: center;
-        .list-arrow{
-            min-width: 40px;
-            margin-right: 12px;
-        }
-        .list-content{
-            
-        }
+    .list-content {
+        font-size: 1.2rem;
     }
+  }
 }
 
-.office-bearers-section{
-    @extend .container;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    .office-bearers-title{
-        @include section-title;
+.office-bearers-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  .office-bearers-title {
+    @include section-title;
+  }
+  .person-card {
+    height: 100%;
+    .ant-card-cover {
+      max-height: 399px;
+      overflow: hidden;
     }
-    .person-card-container{
-        padding: 20px;
-        height: 100%;
-        .person-image-container{
-            max-height: 250px;
-            overflow: hidden;
-            display: flex;
-            justify-content: center;
-            img{
-                width: 100%;
-                max-width: 250px;
-            }
+    .ant-card-meta {
+      .ant-card-meta-detail {
+        .ant-card-meta-title {
+          font-size: 1.4rem;
+          color: $dark-blue;
+        font-weight: 600;
         }
-        .person-name{
-            text-align: center;
-            font-size: $title-font;
-            color: $primary-grey;
-            margin-top: 12px;
+        .ant-card-meta-description {
+          font-size: 1rem;
+          font-family: $bold-font-family;
+          font-weight: 300;
         }
-        .person-position{
-            text-align: center;
-            font-size: $regular-font;
-            color: $secondary-grey;
-        }
-        .person-description{
-            text-align: justify;
-        }
+      }
     }
-    
+  }
 }

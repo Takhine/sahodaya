@@ -1,0 +1,9 @@
+.blogs-banner{
+    margin: 24px 0;
+    margin-top: 12px;
+    box-shadow: $main-box-shadow;
+    @include md{
+        margin: 48px 0;
+        margin-top: 12px;
+    }
+}

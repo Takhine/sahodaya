@@ -1,8 +1,13 @@
 // Header
 
+.home-content{
+    background-color: $dark-blue;
+    padding-bottom: 24px !important;
+    }
 .header-container{
     border-bottom: $section-border;
     height: 100%;
+
     .header-image{
         width: 100%;
     }
@@ -35,6 +40,7 @@
                 }
                 .cta-message{
                     font-size: 24px;
+                    font-family: $quicksand-font-family;
                     @include lg{
                         font-size: 42px;
                     }
@@ -43,6 +49,7 @@
                     margin-top: 30px;
                     .cta-button{
                         @include primary-button;
+                        background-color: $dark-blue;
                     }
                 }
             }
@@ -55,9 +62,12 @@
                 padding-left: 32px;
             }
             h1{
+                font-weight: 600;
                 @include section-title;
+                color: white;
             }
             p{
+                color: white;
                @include section-content;
             }
         }
@@ -70,6 +80,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     border-bottom: $section-border;
+    background-color: #f2f7f9;
     @extend .container;
     p{
         text-align: justify;
@@ -96,6 +107,8 @@
     }
     .mission-title, .vision-title, .about-title{
         @include section-title;
+        color: $dark-blue;
+        font-weight: 600;
     }
     .mission-content, .vision-content, .about-content{
         @include section-content;

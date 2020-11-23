@@ -7,13 +7,13 @@ export default function NextPrev({ prev, next, nextTitle, prevTitle }) {
   return (
     <div className="next-prev-section">
       {prev && (
-        <NavLink exact to={`/blogs/${cleanSlug(prevTitle)}/${prev}`}>
-          <Button icon={<LeftCircleOutlined />}>Previous</Button>
+        <NavLink className="prev-link" exact to={`/blogs/${cleanSlug(prevTitle)}/${prev}`}>
+          <Button className="prev-button" icon={<LeftCircleOutlined />}>Previous</Button>
         </NavLink>
       )}
       {next && (
-        <NavLink exact to={`/blogs/${cleanSlug(nextTitle)}/${next}`}>
-          <Button icon={<RightCircleOutlined />}>Next</Button>
+        <NavLink className="next-link" exact to={`/blogs/${cleanSlug(nextTitle)}/${next}`}>
+          <Button className="next-button" icon={<RightCircleOutlined />}>Next</Button>
         </NavLink>
       )}
     </div>

@@ -2,6 +2,7 @@ import React from "react";
 import mobileTimeline from "static/images/mobile-timeline.svg";
 import timeline from "static/images/timeline.svg";
 import { Grid } from "@material-ui/core";
+import FadeIn from 'react-fade-in';
 
 function About() {
   return (
@@ -20,11 +21,14 @@ function About() {
               teachers and students, in order for them to keep up with ever
               changing era of education.
             </p>
+          <FadeIn>
+
             <img
               className="mobile-timeline"
               src={mobileTimeline}
               alt="Sahodaya Timeline"
             />
+            </FadeIn>
           </Grid>
           <Grid className="mv-container" item container spacing={4}>
             <Grid item xs={12} sm={6}>
@@ -50,7 +54,9 @@ function About() {
           </Grid>
         </Grid>
         <Grid className="timeline-container" item xs={12} md={4}>
+          <FadeIn>
           <img className="timeline" src={timeline} alt="Sahodaya Timeline" />
+          </FadeIn>
         </Grid>
       </Grid>
     </div>

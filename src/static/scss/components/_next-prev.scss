@@ -1,0 +1,35 @@
+.next-prev-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0;
+    @include md{
+        margin: 24px 0;
+    }
+    button{
+        font-size: 1.2rem;
+        background: #1ad1f6;
+        color: white;
+        border: none;
+    }
+    .next-link{
+        display: flex;
+        margin-left: auto;
+        .next-button{
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            .anticon{
+                margin-left: 8px;
+                margin-top: 2px;
+            }
+        }
+    }
+    .prev-link{
+        display: flex;
+        margin-right: auto;
+        .prev-button{
+            display: flex;
+            align-items: center;
+        }
+    }
+}
