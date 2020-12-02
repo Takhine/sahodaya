@@ -15,7 +15,7 @@ export default function Blogs() {
         <BreadcrumbBar page="Blogs" />
         <Banner />
         <Recommended isHome={true} />
-        <StickyAd />
+        {/* <StickyAd /> */}
       </div>
     </Layout>
   );
