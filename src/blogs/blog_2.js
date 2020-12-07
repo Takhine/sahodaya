@@ -46,10 +46,14 @@ export const blog_2 = {
     },
     {
       id: 5,
-      type: "normal",
+      type: "side-ad",
       heading: null,
       content:
-      "Teachers are enjoying the online classes as they are able to share extra information in the form of videos, PPTs, activities, quizzes etc, which is a need of pedagogy. The students who could not answer in offline classrooms are also able to share their thoughts in online classes. Teachers are content as their lectures are being recorded which becomes easy to access anytime. The education system is also moving towards being paperless which is environment friendly. Teachers are able to implement quick tests to check the understanding of the students by using Google Form Quizzes and similar software. The parents have also become an integral part of schooling; they are able to monitor the progress and the involvement of the students."
+      "Teachers are enjoying the online classes as they are able to share extra information in the form of videos, PPTs, activities, quizzes etc, which is a need of pedagogy. The students who could not answer in offline classrooms are also able to share their thoughts in online classes. Teachers are content as their lectures are being recorded which becomes easy to access anytime. The education system is also moving towards being paperless which is environment friendly. Teachers are able to implement quick tests to check the understanding of the students by using Google Form Quizzes and similar software. The parents have also become an integral part of schooling; they are able to monitor the progress and the involvement of the students.",
+      ad:
+        "https://images.unsplash.com/photo-1553173385-682bfe958d31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
+      adAlt: "Ad Alt",
+    
     },
     {
       id: 6,
@@ -64,6 +68,13 @@ export const blog_2 = {
       heading: null,
       content:
       "The education system of India is getting revamped. The novel Corona virus has forcefully changed the structure of the old teaching and learning style, a new era of education has begun. Surely students, teachers and parents are happy despite having some negative impact. Together we can all overcome the challenges and teachers can prepare more activity-based teaching which is the pivotal point of NEP 2020. "
+    },
+    {
+      id: 8,
+      type: "center-ad",
+      heading: null,
+      image: "https://www.w3schools.com/howto/img_snow_wide.jpg",
+      imageAlt: "Ad Alt",
     },
   ],
 };

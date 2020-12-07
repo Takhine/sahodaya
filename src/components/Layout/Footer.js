@@ -28,6 +28,9 @@ const Footer = () => {
               <NavLink exact to="/about">
                 <Button>About</Button>
               </NavLink>
+              <NavLink exact to="/blogs">
+                <Button>Blogs</Button>
+              </NavLink>
               <NavLink exact to="/events">
                 <Button>Events</Button>
               </NavLink>
