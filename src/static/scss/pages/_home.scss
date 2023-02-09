@@ -1,5 +1,9 @@
 // Header
-
+.event-modal{
+    max-width:  420px;
+    width: 100%;
+    .ant-modal-body{padding: 0;}
+}
 .home-content{
     background-color: $dark-blue;
     padding-bottom: 24px !important;
