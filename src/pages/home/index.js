@@ -21,7 +21,7 @@ function Home() {
                 {/* Member Schools Slider */}
                 {/* <MemberSchools/>*/}
             </div>
-            <EventModal handleCancel={handleCancel} visible={visible} />
+            {/* <EventModal handleCancel={handleCancel} visible={visible} /> */}
         </Layout>
     );
 

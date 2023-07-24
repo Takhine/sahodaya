@@ -21,11 +21,11 @@ export default function EventModal({ visible, handleCancel }) {
       onCancel={() => handleCancel()}
       style={{ top: 40 }}
       className="event-modal"
-      title="Integration of Technology &amp; Skill Based Learning"
+      title="National Sahodaya Event'23"
       footer={null}
     >
       {/* <a href="https://forms.gle/vkrRYFwPHMuJvL7Z7" target="_blank"> */}
-        <img width="100%" src={event} alt="Blended Learning: The new normal" />
+        {/* <img width="100%" src={event} alt="Blended Learning: The new normal" /> */}
       {/* </a> */}
     </Modal>
   );

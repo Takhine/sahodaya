@@ -1,0 +1,28 @@
+.header-container {
+    .header-bottom{
+        .cta-grid{
+
+    .event-cta-container {
+        @extend .cta-container;
+
+        @include msm {
+            top: -85px;
+        }
+        .cta-date {
+            font-size: 20px;
+            font-family: $quicksand-font-family;
+            @include lg{
+                font-size: 24px;
+            }
+        }
+        .cta-location {
+            font-size: 20px;
+            font-family: $quicksand-font-family;
+            @include lg{
+                font-size: 24px;
+            }
+        }
+    }
+}
+}
+}

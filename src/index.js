@@ -7,6 +7,7 @@ import About from "pages/about";
 import Events from "pages/events";
 import Blogs from "pages/blogs";
 import BlogPage from "pages/blog-page";
+import NationalSahodayaEvent from "pages/events/NationalSahodayaEvent";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             component={BlogPage}
           />
           <Route path="/events" exact={true} component={Events} />
+          <Route path="/events/national-sahodaya-event-2023" exact component={NationalSahodayaEvent} />
           <Route render={() => <h1>Page not found</h1>} />
         </Switch>
     </Router>
