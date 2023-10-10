@@ -18,6 +18,7 @@ import logo from "static/images/cbse-logo.png";
 import cancel from "static/images/sidebar-cancel-icon.png";
 
 import Sidebar from "./Sidebar";
+import Banner from "./Banner";
 const Navbar = () => {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
@@ -73,35 +74,40 @@ const Navbar = () => {
             </div>
             {leftSideList("left")}
           </Drawer>
-          <NavLink className="navbar-title" exact to="/">
-            <h2>Sahodaya Schools Complex MMR &amp; OMMR</h2>
-          </NavLink>
-          <div className="grow" />
           <div className="logo-container">
             <NavLink exact to="/">
               <img src={logo} alt="Sahodaya School Complex Logo" />
             </NavLink>
           </div>
+          <NavLink className="navbar-title" exact to="/">
+            <h2>Sahodaya Schools Association Mumbai</h2>
+          </NavLink>
+          <div className="grow" />
+
           <div className="nav-menu-container">
             <NavLink exact to="/">
-              <Button>Home</Button>
+              <Button className="nav-button">Home</Button>
             </NavLink>
             <NavLink exact to="/about">
-              <Button>About</Button>
+              <Button className="nav-button">About</Button>
             </NavLink>
             <NavLink exact to="/blogs">
-              <Button>Blogs</Button>
+              <Button className="nav-button">Blogs</Button>
             </NavLink>
             <NavLink exact to="/events">
-              <Button>Events</Button>
+              <Button className="nav-button">Events</Button>
             </NavLink>
             <Button
               aria-controls="fade-menu"
               aria-haspopup="true"
+              className="nav-button"
               onClick={handleClick}
             >
               Archives
             </Button>
+            <NavLink exact to="/national-sahodaya-conference-2023">
+              <Button className="register-button">Register for 29th NSC-23</Button>
+            </NavLink>
             <Menu
               id="fade-menu"
               anchorEl={anchorEl}
@@ -156,6 +162,7 @@ const Navbar = () => {
             </Menu>
           </div>
         </Toolbar>
+        <Banner />
       </AppBar>
     </div>
   );

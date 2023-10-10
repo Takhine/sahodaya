@@ -8,21 +8,6 @@ import event7 from "static/images/events/7.jpg";
 import event8 from "static/images/events/8.jpg";
 import event9 from "static/images/events/9.jpg";
 import event10 from "static/images/events/10.jpg";
-import event11 from "static/images/events/11.jpg";
-import event12 from "static/images/events/12.jpg";
-import event13 from "static/images/events/13.jpg";
-import event14 from "static/images/events/14.jpg";
-import event15 from "static/images/events/15.jpg";
-import event16 from "static/images/events/16.jpg";
-import event17 from "static/images/events/17.jpg";
-import event18 from "static/images/events/18.jpg";
-import event19 from "static/images/events/19.jpg";
-import event20 from "static/images/events/20.jpg";
-import event21 from "static/images/events/21.jpg";
-import event22 from "static/images/events/22.jpg";
-import event23 from "static/images/events/23.jpg";
-import event24 from "static/images/events/24.jpg";
-import event25 from "static/images/events/25.jpg";
 import event26 from "static/images/events/26.jpg";
 import event27 from "static/images/events/27.jpg";
 import event28 from "static/images/events/28.jpg";
@@ -41,10 +26,135 @@ import event40 from "static/images/events/40.jpg";
 import event41 from "static/images/events/41.jpg";
 import event42 from "static/images/events/42.jpg";
 import event43 from "static/images/events/43.jpg";
+// 
+import event44 from "static/images/events/44.jpg";
+import event45 from "static/images/events/45.jpg";
+import event46 from "static/images/events/46.jpg";
+import event47 from "static/images/events/47.jpg";
+import event48 from "static/images/events/48.jpg";
+import event49 from "static/images/events/49.jpg";
+import event50 from "static/images/events/50.jpg";
+import event51 from "static/images/events/51.jpg";
+import event52 from "static/images/events/52.jpg";
+import event53 from "static/images/events/53.jpg";
+import event54 from "static/images/events/54.jpg";
+import event55 from "static/images/events/55.jpg";
+import event56 from "static/images/events/56.jpg";
+import event57 from "static/images/events/57.jpg";
+import event58 from "static/images/events/58.jpg";
+import event59 from "static/images/events/59.jpg";
+import event60 from "static/images/events/60.jpg";
+import event61 from "static/images/events/61.jpg";
+import event62 from "static/images/events/62.jpg";
+import event63 from "static/images/events/63.jpg";
 
 
+export const tile1Data = [
+  {
+    id: 1,
+    img: event44,
+    title: "Sahodaya",
+    cols: 2
+  },
+  {
+    id: 2,
+    img: event45,
+    title: "Sahodaya",
+    cols: 1
+  },
+  {
+    id: 3,
+    img: event46,
+    title: "Sahodaya",
+  },
+  {
+    id: 4,
+    img: event47,
+    title: "Sahodaya",
+  },
+  {
+    id: 5,
+    img: event48,
+    title: "Sahodaya",
+  },
+  {
+    id: 6,
+    img: event49,
+    title: "Sahodaya",
+  },
+  {
+    id: 7,
+    img: event50,
+    title: "Sahodaya",
+  },
+  {
+    id: 8,
+    img: event51,
+    title: "Sahodaya",
+  },
+  {
+    id: 9,
+    img: event52,
+    title: "Sahodaya",
+  },
+  {
+    id: 10,
+    img: event53,
+    title: "Sahodaya",
+  },
+  {
+    id: 11,
+    img: event54,
+    title: "Sahodaya",
+  },
+  {
+    id: 12,
+    img: event55,
+    title: "Sahodaya",
+  },
+  {
+    id: 13,
+    img: event56,
+    title: "Sahodaya",
+  },
+  {
+    id: 14,
+    img: event57,
+    title: "Sahodaya",
+  },
+  {
+    id: 15,
+    img: event58,
+    title: "Sahodaya",
+  },
+  {
+    id: 16,
+    img: event59,
+    title: "Sahodaya",
+  },
+  {
+    id: 17,
+    img: event60,
+    title: "Sahodaya",
+  },
+  {
+    id: 18,
+    img: event61,
+    title: "Sahodaya",
+  },
+  {
+    id: 19,
+    img: event62,
+    title: "Sahodaya",
+  },
+  {
+    id: 20,
+    img: event63,
+    title: "Sahodaya",
+  },
+]
 
-export const tileData = [
+export const tile2Data = [
   {
     id: 1,
     img: event1,
@@ -95,81 +205,6 @@ export const tileData = [
   {
     id: 10,
     img: event10,
-    title: "Sahodaya",
-  },
-  {
-    id: 11,
-    img: event11,
-    title: "Sahodaya",
-  },
-  {
-    id: 12,
-    img: event12,
-    title: "Sahodaya",
-  },
-  {
-    id: 13,
-    img: event13,
-    title: "Sahodaya",
-  },
-  {
-    id: 14,
-    img: event14,
-    title: "Sahodaya",
-  },
-  {
-    id: 15,
-    img: event15,
-    title: "Sahodaya",
-  },
-  {
-    id: 16,
-    img: event16,
-    title: "Sahodaya",
-  },
-  {
-    id: 17,
-    img: event17,
-    title: "Sahodaya",
-  },
-  {
-    id: 18,
-    img: event18,
-    title: "Sahodaya",
-  },
-  {
-    id: 19,
-    img: event19,
-    title: "Sahodaya",
-  },
-  {
-    id: 20,
-    img: event20,
-    title: "Sahodaya",
-  },
-  {
-    id: 21,
-    img: event21,
-    title: "Sahodaya",
-  },
-  {
-    id: 22,
-    img: event22,
-    title: "Sahodaya",
-  },
-  {
-    id: 23,
-    img: event23,
-    title: "Sahodaya",
-  },
-  {
-    id: 24,
-    img: event24,
-    title: "Sahodaya",
-  },
-  {
-    id: 25,
-    img: event25,
     title: "Sahodaya",
   },
   {

@@ -1,7 +1,7 @@
 .blog-page{
     max-width: 1400px;
     margin: auto;
-    @extend .container;
+    @extend .saho-container ;
     .blog-header{
         display: flex;
         flex-direction: column;

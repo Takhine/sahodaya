@@ -21,7 +21,7 @@ export default function EventModal({ visible, handleCancel }) {
       onCancel={() => handleCancel()}
       style={{ top: 40 }}
       className="event-modal"
-      title="National Sahodaya Event'23"
+      title="29th National Sahodaya Conference 2023"
       footer={null}
     >
       {/* <a href="https://forms.gle/vkrRYFwPHMuJvL7Z7" target="_blank"> */}

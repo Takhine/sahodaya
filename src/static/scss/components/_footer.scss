@@ -32,12 +32,19 @@
         align-items: center;
         flex-direction: column;
         justify-content: space-between;
-        .footer-logo{
-            width: 100%;
-            max-width: 200px;
+        .saho-footer-logo{
+            background-color: white;
+            padding: 12px;
+            width: 200px;
             border-top-right-radius: 4px;
             border-top-left-radius: 4px;
             box-shadow: $main-box-shadow;
+        }
+        .saho-footer-g20-logo {
+            width: 200px;
+            border-radius: 4px;
+            box-shadow: $main-box-shadow;
+            margin-top: 12px;
         }
         .cta-button{
             @include primary-button;

@@ -42,7 +42,7 @@ function Header() {
             <h1>Welcome to Mumbai Sahodaya</h1>
             </FadeIn>
             <p>
-              Since the inception of Sahodaya MMR and OMMR in 2009, to the
+              Since the inception of Sahodaya Schools Association Mumbai in 2009, to the
               present day, various efforts have been made to provide the right
               type of guidance and opportunities to all the schools associated
               with the complex in Mumbai, Thane (incl. Navi Mumbai), Palghar and
@@ -54,7 +54,7 @@ function Header() {
             <p>
               Sahodaya Schools Complex is working tirelessly with a true
               Sahodaya Spirit, sharing and helping each other whenever needed.
-              With the passage of time Sahodaya MMR and OMMR has become a
+              With the passage of time Sahodaya Schools Association Mumbai has become a
               close-knit family, and we welcome you to join us and make this
               family bigger and better.
             </p>

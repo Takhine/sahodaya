@@ -7,13 +7,13 @@ const {sections:sections2, next_prev: next_prev2, ...blog2} = blog_2;
 const {sections: sections3, next_prev: next_prev3, ...blog3} = blog_3;
 
 export const latestBlogs = [
-    blog1,
+    // blog1,
     blog2,
     // blog3
 ];
 
 export const homeBlogs = [
-    blog1,
+    // blog1,
     blog2,
     // blog3,
     // blog1,

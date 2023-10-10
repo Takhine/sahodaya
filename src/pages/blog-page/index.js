@@ -57,9 +57,9 @@ export default function BlogPage() {
         ))}
 
         {/* Next/Prev Section */}
-        <NextPrev {...next_prev} />
+        {/* <NextPrev {...next_prev} /> */}
         {/* Recommended Articles */}
-        <Recommended />
+        {/* <Recommended /> */}
       </div>
     </Layout>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import { Grid, Button } from "@material-ui/core";
-import logo from "static/images/sahodaya-logo.jpg";
+import logo from "static/images/sahodaya-logo.png";
+import g20logo from "static/images/g20-logo.jpg";
 import underline from "static/images/underline.svg";
 
 import { NavLink } from "react-router-dom";
@@ -10,10 +11,11 @@ const Footer = () => {
     <div className="footer">
       <Grid style={{ width: "100%", margin: "unset" }} container spacing={8}>
         <Grid className="footer-logo-container" item sm={12} md={3}>
-          <img className="footer-logo" src={logo} alt="Images" />
+          <img className="saho-footer-logo" src={logo} alt="Images" />
           <a className="noDecor" href="https://forms.gle/3geT2o6SSJ88QsaHA" target="_blank" rel="noopener noreferrer">
             <Button className="cta-button">Download Form</Button>
           </a>
+          <img className="saho-footer-g20-logo" src={g20logo} alt="Images" />
         </Grid>
         <Grid item container xs={12} sm={9}>
           <Grid className="footer-links-container" item xs={12}>
@@ -90,7 +92,7 @@ const Footer = () => {
       </Grid>
       <hr />
       <small className="copyright">
-        Copyright &copy; Sahodaya Schools Complex MMR & OMMR
+        Copyright &copy; Sahodaya Schools Association Mumbai Metropolitan Region & Outer Mumbai Metropolitan Region
       </small>
     </div>
   );

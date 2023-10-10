@@ -3,9 +3,13 @@ import { Row, Col, Image, Card } from "antd";
 
 import placeholder from "static/images/office_bearers/placeholder.jpg";
 import rajeev from "static/images/office_bearers/rajeev_garg.jpg";
-import raj from "static/images/office_bearers/raj_aloni.png";
-import nandita from "static/images/office_bearers/nandita_khanna.png";
+import ranjana from "static/images/office_bearers/ranjana.jpeg";
+import rashmi from "static/images/office_bearers/rashmi.jpg";
+import raj from "static/images/office_bearers/raj_aloni.jpg";
+import alok from "static/images/office_bearers/alok.jpg";
+import nandita from "static/images/office_bearers/nandita_khanna.jpg";
 import ganesh from "static/images/office_bearers/ganesh_parmeshwaran.png";
+import alokSharma from "static/images/office_bearers/alok_sharma.jpg";
 
 const { Meta } = Card;
 
@@ -15,34 +19,43 @@ const people = [
     name: "MR. RAJEEV KUMAR GARG",
     img: rajeev,
     position:
-      "Principal, Datta Meghe World Academy, Sector 16, Airoli, Navi Mumbai 400708; Thane",
+      "Principal, Datta Meghe World Academy, Airoli & President, Sahodaya Schools Association, Mumbai & Metropolitan",
     description:
       "Short Description or quote Short Description or quote Short Description or quote",
   },
   {
     id: 2,
     name: "MRS. RANJANA JANGRA",
-    img: placeholder,
+    img: ranjana,
     position:
-      "Principal, B. K. Birla Public School Birla College Road, Gauripada Kalyan (W),Thane 421304;",
+      "Principal, B K Birla School, Kalyan, Dist Thane and Vice- President, Sahodaya Schools Association, Mumbai & Metropolitan Region",
     description:
       "Short Description or quote Short Description or quote Short Description or quote",
   },
   {
     id: 3,
-    name: "MR. B. ANIL KUMAR",
-    img: placeholder,
+    name: "Dr Rashmi Rekha Saha",
+    img: rashmi,
     position:
-      "Principal, Chinmaya Vidyalaya Plot No 201, MIDC Area, Saravali, Vidyanagar, Palghar, Boisar, Maharashtra 401501;",
+      "Principal, Lodha World School, LSG Palava phase 2, Dombivali & Treasurer, Sahodaya Schools Association.",
+    description:
+      "Short Description or quote Short Description or quote Short Description or quote",
+  },
+  {
+    id: 3,
+    name: "Mr Alok Katdare",
+    img: alok,
+    position:
+      "Principal, Reliance Foundation School, Koparkhairne, Navi Mumbai & Member, Sahodaya Schools Association",
     description:
       "Short Description or quote Short Description or quote Short Description or quote",
   },
   {
     id: 4,
     name: "MRS. RAJ ALONI",
-    img: placeholder,
+    img: raj,
     position:
-      "Principal, Ramsheth Thakur Public School Plot No-11 Sector-19, Kharghar, Navi Mumbai, Maharashtra 410210",
+      "Principal, Ramsheth Thakur Public School, Kharghar & Secretary, Sahodaya Schools Association",
     description:
       "Short Description or quote Short Description or quote Short Description or quote",
   },
@@ -51,15 +64,23 @@ const people = [
     name: "MR. GANESH PARAMESHWARAN",
     img: ganesh,
     position:
-      "Principal, Bal Bharati Public School, Plot No 5, Sector 4, Kharghar, Navi Mumbai,Maharashtra 410210",
+      "Principal, Bal Bharati Public School, Plot No 5, Sector 4, Kharghar, Navi Mumbai,Maharashtra",
     description:
       "Short Description or quote Short Description or quote Short Description or quote",
   },
   {
     id: 6,
-    name: "MRS. NANDITA KHANNA",
-    img: placeholder,
-    position: "Principal, Nalanda Public School, Mulund (E),Hari Om Nagar",
+    name: "Mrs Nandita Khanna",
+    img: nandita,
+    position: "Principal, Nalanda Public School, Mulund (E) Mumbai & Joint Secretary, Sahodaya Schools Association",
+    description:
+      "Short Description or quote Short Description or quote Short Description or quote",
+  },
+  {
+    id: 7,
+    name: "Mr Alok Sharma",
+    img: alokSharma,
+    position: "Principal Bhartiya Vidyapeeth English Medium School, CBD Belapur, Navi Mumbai & Member Sahodaya Schools Association",
     description:
       "Short Description or quote Short Description or quote Short Description or quote",
   },
