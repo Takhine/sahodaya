@@ -80,7 +80,7 @@ const Navbar = () => {
             </NavLink>
           </div>
           <NavLink className="navbar-title" exact to="/">
-            <h2>Sahodaya Schools Association Mumbai</h2>
+            <h2>Mumbai Sahodaya Association</h2>
           </NavLink>
           <div className="grow" />
 

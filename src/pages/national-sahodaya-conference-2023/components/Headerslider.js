@@ -34,17 +34,6 @@ export const Headerslider = () => {
           title: "",
           description:"",
         },
-        {
-          id: 2,
-          src: "images/slide2.jpeg",
-          
-          src_mob: "images/mobimg2.jpg",
-          alt: "Image 2 ",
-          title: "",
-          description:"",
-        }
-        
-        
       ];
       
     

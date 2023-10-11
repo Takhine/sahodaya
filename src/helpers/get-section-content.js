@@ -9,12 +9,12 @@ export const getSectionContent = (section) => {
   switch (type) {
     case "normal":
       return <Normal section={section} />;
-    case "side-ad":
-      return <SideAd section={section} />;
+    // case "side-ad":
+    //   return <SideAd section={section} />;
     case "image-col":
       return <ImageCol section={section} />;
-    case "center-ad":
-      return <CenterAd section={section} />;
+    // case "center-ad":
+    //   return <CenterAd section={section} />;
     default:
       return "";
   }

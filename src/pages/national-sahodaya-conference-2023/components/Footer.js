@@ -26,7 +26,7 @@ export const Footer = () => {
             <div className="row align-items-center">
                <div className="col-12 text-center">
                   <div className="border-gray-300 border-top pt-5">
-                     <span className="font-alt font-w-600 letter-spacing-1 text-extra-small text-gray-700 text-uppercase">&copy; Sahodaya Schools Association Mumbai and Metropolitan Regions. All Rights Reserved.</span>
+                     <span className="font-alt font-w-600 letter-spacing-1 text-extra-small text-gray-700 text-uppercase">&copy; Mumbai Sahodaya Association and Metropolitan Regions. All Rights Reserved.</span>
                   </div>
                </div>
             </div>

@@ -8,7 +8,6 @@ import rashmi from "static/images/office_bearers/rashmi.jpg";
 import raj from "static/images/office_bearers/raj_aloni.jpg";
 import alok from "static/images/office_bearers/alok.jpg";
 import nandita from "static/images/office_bearers/nandita_khanna.jpg";
-import ganesh from "static/images/office_bearers/ganesh_parmeshwaran.png";
 import alokSharma from "static/images/office_bearers/alok_sharma.jpg";
 
 const { Meta } = Card;
@@ -61,15 +60,6 @@ const people = [
   },
   {
     id: 5,
-    name: "MR. GANESH PARAMESHWARAN",
-    img: ganesh,
-    position:
-      "Principal, Bal Bharati Public School, Plot No 5, Sector 4, Kharghar, Navi Mumbai,Maharashtra",
-    description:
-      "Short Description or quote Short Description or quote Short Description or quote",
-  },
-  {
-    id: 6,
     name: "Mrs Nandita Khanna",
     img: nandita,
     position: "Principal, Nalanda Public School, Mulund (E) Mumbai & Joint Secretary, Sahodaya Schools Association",
@@ -77,7 +67,7 @@ const people = [
       "Short Description or quote Short Description or quote Short Description or quote",
   },
   {
-    id: 7,
+    id: 6,
     name: "Mr Alok Sharma",
     img: alokSharma,
     position: "Principal Bhartiya Vidyapeeth English Medium School, CBD Belapur, Navi Mumbai & Member Sahodaya Schools Association",
