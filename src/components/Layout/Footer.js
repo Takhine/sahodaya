@@ -92,7 +92,7 @@ const Footer = () => {
       </Grid>
       <hr />
       <small className="copyright">
-        Copyright &copy; Mumbai Sahodaya Association Metropolitan Region & Outer Mumbai Metropolitan Region
+        Copyright &copy; Mumbai Sahodaya
       </small>
     </div>
   );

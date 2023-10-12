@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from "static/images/sahodaya-logo.png";
 
 export const Header = () => {
    return (
@@ -8,8 +9,8 @@ export const Header = () => {
                <div className="row">
                   <div className="col-lg-3 navbar-header">
                      <a className="navbar-brand" exact href="/">
-                        <img src="img/sahodaya-logo.png" alt="true" className="logo-text-dark" />
-                        <img src="img/sahodaya-logo.png" alt="true" className="logo-text-light" />
+                        <img src={logo} alt="true" className="logo-text-dark" />
+                        <img src={logo} alt="true" className="logo-text-light" />
                      </a>
                   </div>
                   <div className="col-lg-6 navbar-wrapper justify-content-center">
