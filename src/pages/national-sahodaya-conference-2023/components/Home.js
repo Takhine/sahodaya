@@ -2,17 +2,10 @@ import React from 'react'
 import { Headerslider } from "./Headerslider";
 import { Form } from "./Form"
 import { Player } from 'video-react';
-import { Helmet } from 'react-helmet';
 
 export const Home = () => {
    return (
       <>
-         <Helmet>
-            <link
-               rel="stylesheet"
-               href="https://video-react.github.io/assets/video-react.css"
-            />
-         </Helmet>
          <Headerslider />
          <div id="intro" className="bg-white">
             <div className="container-fluid p-xl-0">
