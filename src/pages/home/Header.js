@@ -52,7 +52,7 @@ function Header() {
               implementation and betterment of the same.{" "}
             </p>
             <p>
-              Sahodaya Schools Complex is working tirelessly with a true
+              Mumbai Sahodaya is working tirelessly with a true
               Sahodaya Spirit, sharing and helping each other whenever needed.
               With the passage of time Mumbai Sahodaya has become a
               close-knit family, and we welcome you to join us and make this

@@ -1,0 +1,8 @@
+
+.event-modal-wrapper {
+    .register-button {
+        @include primary-button;
+        background: $primary-yellow;
+        margin: 0 12px 12px;
+    }
+}

@@ -53,19 +53,18 @@ export const Home = () => {
             <div className="container">
                <div className="row justify-content-center mb-5">
                   <div className="col-lg-6 text-center mb-3 mb-lg-5">
-                     <h3 className="font-alt font-w-700 letter-spacing-2 m-0 text-uppercase title-small">About National Sahodaya Conference 2023</h3>
-                     <span className="d-block font-alt font-w-600 letter-spacing-1 mt-2 text-gray-800 text-small text-uppercase">Empowering Education Excellence and Connecting Minds: Discover What Awaits!</span>
+                     <h3 className="font-alt font-w-700 letter-spacing-2 m-0 text-uppercase title-small">29th National Annual Conference for Sahodaya Schools Complexes</h3>
                      <span className="bg-blue d-block mt-4 mx-auto sep-line-medium-thick-long"></span>
                   </div>
                </div>
                <div className="row justify-content-center">
                   <div className="col-lg-6 col-xl-5 text-center text-lg-start">
                      <p className="font-alt font-w-600 letter-spacing-1 text-medium text-uppercase">Charting the Course for Tomorrow's Education at 29th NSC 2023!</p>
-                     <p className="text-medium">Prepare for a three-day educational adventure like no other at the National Sahodaya Conference 2023!</p>
-                     <p className="text-medium">Get ready to be wowed by interactive demos, groundbreaking announcements, and a goldmine of best practices. We've handpicked a dream team of trailblazers, including educators, tech gurus, and forward-thinking leaders, to ignite your imagination.</p>
+                     <p className="text-medium">Prepare for a two-day educational adventure at the  29th National Annual Conference for Sahodaya Schools Complexes</p>
+                     <p className="text-medium">Get ready to be wowed by interactive Sessions , announcements, and a goldmine of best practices. We've handpicked a dream team of trailblazers, including educators, tech gurus, and forward-thinking leaders to ignite your imagination.</p>
                      <p className="text-medium">In a world where traditional schooling no longer fits the bill, we're diving headfirst into the future of education. Imagine a fusion of ancient Gurukul wisdom with cutting-edge technology, all on a global scale.</p>
-                     <p className="text-medium">Sure, there will be hurdles along the way—resistance to change, and resource challenges—but the possibilities are boundless: equitable education, tailored learning, and seamless tech integration.</p>
-                     <p className="text-medium">In short, we're on a mission to redefine education. Buckle up for an exhilarating journey towards a brighter tomorrow!</p>
+                     <p className="text-medium">Sure, we are on the mission to redefine education .There will be hurdles along the way but the possibilities are boundless: equitable education, tailored learning, and seamless tech integration </p>
+                     <p className="text-medium">Buckle up for an exhilarating journey towards a brighter tomorrow!</p>
 
                      <a href="#venue" className="page-scroll btn btn-outline-black btn-small border-thick mt-2 mx-0">Event Venue</a>
                   </div>
@@ -233,7 +232,7 @@ export const Home = () => {
                      <div className="align-items-center bg-white border border-gray-300 box-shadow d-flex justify-content-between p-4 position-relative rounded" data-mh="mh-hotels">
                         <div className="pr-3">
                            <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Reimagining Learning Spaces</span>
-                           <span className="d-block font-alt font-w-600 letter-spacing-1 mt-2 text-gray-800 text-extra-small text-uppercase">Shifting to Student-Centered, Biophilic Designs.</span>
+                           <span className="d-block font-alt font-w-600 letter-spacing-1 mt-2 text-gray-800 text-extra-small text-uppercase">Shifting to Student-Centered, Biophilic Designs</span>
                         </div>
                         <img src="images/theme1.jpg" alt="true" className="img-fluid rounded" />
                      </div>
@@ -242,7 +241,7 @@ export const Home = () => {
                      <div className="align-items-center bg-white border border-gray-300 box-shadow d-flex justify-content-between p-4 position-relative rounded" data-mh="mh-hotels">
                         <div className="pr-3">
                            <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Evolving and Emerging School Systems</span>
-                           <span className="d-block font-alt font-w-600 letter-spacing-1 mt-2 text-gray-800 text-extra-small text-uppercase">From Recipients to Partners in Education.</span>
+                           <span className="d-block font-alt font-w-600 letter-spacing-1 mt-2 text-gray-800 text-extra-small text-uppercase">From Recipients to Partners in Education</span>
                         </div>
                         <img src="images/theme2.jpg" alt="true" className="img-fluid rounded" />
                      </div>
@@ -251,7 +250,7 @@ export const Home = () => {
                      <div className="align-items-center bg-white border border-gray-300 box-shadow d-flex justify-content-between p-4 position-relative rounded" data-mh="mh-hotels">
                         <div className="pr-3">
                            <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Rethinking the education workforce</span>
-                           <span className="d-block font-alt font-w-600 letter-spacing-1 mt-2 text-gray-800 text-extra-small text-uppercase">Motivating Teachers and Professional Development.</span>
+                           <span className="d-block font-alt font-w-600 letter-spacing-1 mt-2 text-gray-800 text-extra-small text-uppercase">Motivating Teachers and Professional Development</span>
                         </div>
                         <img src="images/theme3.jpg" alt="true" className="img-fluid rounded" />
                      </div>
@@ -260,7 +259,7 @@ export const Home = () => {
                      <div className="align-items-center bg-white border border-gray-300 box-shadow d-flex justify-content-between p-4 position-relative rounded" data-mh="mh-hotels">
                         <div className="pr-3">
                            <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Lead The Change</span>
-                           <span className="d-block font-alt font-w-600 letter-spacing-1 mt-2 text-gray-800 text-extra-small text-uppercase">Vision, Planning, and Equitable Innovation.</span>
+                           <span className="d-block font-alt font-w-600 letter-spacing-1 mt-2 text-gray-800 text-extra-small text-uppercase">Vision, Planning, and Equitable Innovation</span>
                         </div>
                         <img src="images/theme4.jpg" alt="true" className="img-fluid rounded" />
                      </div>
@@ -269,7 +268,7 @@ export const Home = () => {
                      <div className="align-items-center bg-white border border-gray-300 box-shadow d-flex justify-content-between p-4 position-relative rounded" data-mh="mh-hotels">
                         <div className="pr-3">
                            <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Education in digital age-opportunities and challenges</span>
-                           <span className="d-block font-alt font-w-600 letter-spacing-1 mt-2 text-gray-800 text-extra-small text-uppercase">Opportunities and Challenges.</span>
+                           <span className="d-block font-alt font-w-600 letter-spacing-1 mt-2 text-gray-800 text-extra-small text-uppercase">Opportunities and Challenges</span>
                         </div>
                         <img src="images/theme5.jpg" alt="true" className="img-fluid rounded" />
                      </div>
@@ -279,7 +278,7 @@ export const Home = () => {
                      <div className="align-items-center bg-white border border-gray-300 box-shadow d-flex justify-content-between p-4 position-relative rounded" data-mh="mh-hotels">
                         <div className="pr-3">
                            <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Curriculum design and assessment</span>
-                           <span className="d-block font-alt font-w-600 letter-spacing-1 mt-2 text-gray-800 text-extra-small text-uppercase">Rigorous and Engaging Learning..</span>
+                           <span className="d-block font-alt font-w-600 letter-spacing-1 mt-2 text-gray-800 text-extra-small text-uppercase">Rigorous and Engaging Learnin</span>
                         </div>
                         <img src="images/theme6.jpg" alt="true" className="img-fluid rounded" />
                      </div>
