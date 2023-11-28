@@ -423,31 +423,65 @@ export const Home = () => {
                      <div id="tab-content-schedule" className="tab-content">
                         <div className="tab-pane fade show active" id="tab-day-1" role="tabpanel" aria-labelledby="day-1">
                            <div className="mb-4 mt-5 text-center">
-                              <span className="d-block font-alt font-w-600 letter-spacing-1 mt-1 text-small text-uppercase">Day 1: Networking</span>
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 mt-1 text-small text-uppercase">Day 1: Networking Evening*</span>
                               <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-800 text-extra-small text-uppercase">December 07, 2023</span>
                            </div>
                            <div className="align-items-top border-bottom d-md-flex py-3">
-                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>06:30 PM </span>
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>6:30 – 7:30 PM</span>
                               <div className="d-block ms-md-5 mt-2 mt-md-0 ">
-                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Arrival at the venue. </span>
-                                 {/* <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-extra-small text-uppercase">TECHSPO Hall</span> */}
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Registration</span>
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-extra-small text-uppercase">1 Hour</span>
                               </div>
                            </div>
                            <div className="align-items-top border-bottom d-md-flex py-3">
-                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>6:45 pm to 8 pm</span>
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>7:30 PM</span>
                               <div className="d-block ms-md-5 mt-2 mt-md-0 ">
-                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">A cultural Program</span>
-                                 {/* <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-extra-small text-uppercase">TECHSPO Hall & Dining Room</span> */}
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Lighting of the lamp (Mrs Varsha Deshpande)</span>
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-extra-small text-uppercase">5 Minutes</span>
                               </div>
                            </div>
                            <div className="align-items-top border-bottom d-md-flex py-3">
-                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>8 pm to 9:30 pm</span>
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>7:35 – 7:40 PM</span>
                               <div className="d-block ms-md-5 mt-2 mt-md-0 ">
-                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Networking Dinner</span>
-                                 {/* <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-extra-small text-uppercase">Auditorium</span> */}
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Saraswati Vandana (Rajhans Vidyalaya)</span>
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-extra-small text-uppercase">5 Minutes</span>
                               </div>
                            </div>
-
+                           <div className="align-items-top border-bottom d-md-flex py-3">
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>7:40 – 7:45 PM</span>
+                              <div className="d-block ms-md-5 mt-2 mt-md-0 ">
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Welcome Song (Airoli Node CBSE Music Teachers)</span>
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-extra-small text-uppercase">5 Minutes</span>
+                              </div>
+                           </div>
+                           <div className="align-items-top border-bottom d-md-flex py-3">
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>7:45 – 7:50 PM</span>
+                              <div className="d-block ms-md-5 mt-2 mt-md-0 ">
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Jai Jai Maharashtra Geet (Shri Nandesh Umap and Teachers)</span>
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-extra-small text-uppercase">5 Minutes</span>
+                              </div>
+                           </div>
+                           <div className="align-items-top border-bottom d-md-flex py-3">
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>7:50 – 8:10 PM</span>
+                              <div className="d-block ms-md-5 mt-2 mt-md-0 ">
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Powada (Shri Nandesh Umap)</span>
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-extra-small text-uppercase">20 Minutes</span>
+                              </div>
+                           </div>
+                           <div className="align-items-top border-bottom d-md-flex py-3">
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>8:10 - 9:00 PM</span>
+                              <div className="d-block ms-md-5 mt-2 mt-md-0 ">
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Musical Evening Live Orchestraby Mumbai CBSE School Teachers (Sheth Karamshi Kanji) (Mrs Varsha Deshpande)</span>
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-extra-small text-uppercase">50 Minutes</span>
+                              </div>
+                           </div>
+                           <div className="align-items-top border-bottom d-md-flex py-3">
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>9:00 PM</span>
+                              <div className="d-block ms-md-5 mt-2 mt-md-0 ">
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Proceed for dinner</span>
+                              </div>
+                           </div>
+                           *limited seats for first 350 delegates on a first come first serve basis
                         </div>
                         <div className="tab-pane fade" id="tab-day-2" role="tabpanel" aria-labelledby="day-2">
                            <div className="mb-4 mt-5 text-center">
@@ -455,86 +489,155 @@ export const Home = () => {
                               <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-800 text-extra-small text-uppercase">December 08, 2023</span>
                            </div>
                            <div className="align-items-top border-bottom d-md-flex py-3">
-                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>8:30 AM</span>
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>8:30 - 11:15 AM</span>
                               <div className="d-block ms-md-5 mt-2 mt-md-0 ">
-                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Registration at Venue</span>
-                                 {/* <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-extra-small text-uppercase">TECHSPO Hall</span> */}
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Inaugural Session</span>
                               </div>
                            </div>
                            <div className="align-items-top border-bottom d-md-flex py-3">
-                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>9 AM</span>
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>11:15 - 11:40 AM</span>
                               <div className="d-block ms-md-5 mt-2 mt-md-0 ">
-                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Guest arrival</span>
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Networking/tea Break/ stall visits</span>
                                  {/* <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-extra-small text-uppercase">TECHSPO Hall & Dining Room</span> */}
                               </div>
                            </div>
                            <div className="align-items-top border-bottom d-md-flex py-3">
-                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>9:30 AM To 11:00 AM</span>
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>11:40 AM - 1:00 PM</span>
                               <div className="d-block ms-md-5 mt-2 mt-md-0 ">
-                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase"> Inaugural session</span>
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Session - 1 Lead the change</span>
                               </div>
                            </div>
                            <div className="align-items-top border-bottom d-md-flex py-3">
-                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>10.00 AM</span>
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>1:00 - 2:00 PM</span>
                               <div className="d-block ms-md-5 mt-2 mt-md-0 ">
-                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Tea break</span>
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Session 2- Quality transformation in Education: Curriculum-Design &amp; Assessment</span>
 
                               </div>
                            </div>
                            <div className="align-items-top border-bottom d-md-flex py-3">
-                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}> 11:30 am-12:30 pm</span>
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>2:00 - 2:40 PM</span>
                               <div className="d-block ms-md-5 mt-2 mt-md-0 ">
-                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Session 1 : Lead The Change</span>
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Networking &amp; stalls visit/lunch break</span>
 
                               </div>
                            </div>
                            <div className="align-items-top border-bottom d-md-flex py-3">
-                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>12:30 pm-1:30 pm</span>
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>2:40 - 3:50 PM</span>
                               <div className="d-block ms-md-5 mt-2 mt-md-0 ">
-                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Session 2 : Quality Transformation In Education</span>
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Session 3 - Reimagining learning spaces</span>
 
                               </div>
                            </div>
                            <div className="align-items-top border-bottom d-md-flex py-3">
-                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>1:30 pm-2:15 pm</span>
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>3:50 - 4:30 PM</span>
                               <div className="d-block ms-md-5 mt-2 mt-md-0 ">
-                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Lunch</span>
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Session 4 - Rethinking educational workforce</span>
 
                               </div>
                            </div>
                            <div className="align-items-top border-bottom d-md-flex py-3">
-                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>2:15 pm-3:15 pm</span>
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>4:30 - 4:50 PM</span>
                               <div className="d-block ms-md-5 mt-2 mt-md-0 ">
-                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Session 3 : Reimagining Learning Spaces</span>
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Networking &amp; Tea break</span>
 
                               </div>
                            </div>
                            <div className="align-items-top border-bottom d-md-flex py-3">
-                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>3:15 pm-4:15pm</span>
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>7:00 PM</span>
                               <div className="d-block ms-md-5 mt-2 mt-md-0 ">
-                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Session 4 : Rethinking Educational Worforce</span>
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Arrival of Guests</span>
                               </div>
                            </div>
                            <div className="align-items-top border-bottom d-md-flex py-3">
-                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>4:15 pm-4:45 pm</span>
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>7:05 PM</span>
                               <div className="d-block ms-md-5 mt-2 mt-md-0 ">
-                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Tea break</span>
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Lighting of the Lamp and Saraswati Vandana (By Ramsheth Thakur Public School, Kharghar) (Mrs. Raj Aloni)</span>
                               </div>
                            </div>
 
                            <div className="align-items-top border-bottom d-md-flex py-3">
-                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>7 pm-9 pm</span>
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>7:05 - 7:10 PM</span>
                               <div className="d-block ms-md-5 mt-2 mt-md-0 ">
-                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Day 1 sessions end- Cultural Evening </span>
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Welcome Song (By Ramsheth Thakur Public School, Kharghar) (Mrs. Raj Aloni)</span>
 
                               </div>
                            </div>
 
                            <div className="align-items-top d-md-flex py-3">
-                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>9 pm- 10 pm</span>
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>7:10 - 7:20 PM</span>
                               <div className="d-block ms-md-5 mt-2 mt-md-0 ">
-                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">(Annual cultural presentation by selected Sahodaya Member Schools)- Dinner</span>
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Ganesh Vandana Dance (Deva shri Ganesha) (25 students) (By Ramsheth Thakur Public School, Kharghar) (Mrs. Raj Aloni)</span>
 
+                              </div>
+                           </div>
+
+                           <div className="align-items-top d-md-flex py-3">
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>7:20 - 7:30 PM</span>
+                              <div className="d-block ms-md-5 mt-2 mt-md-0 ">
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Yeh hai Mumbai meri jaan (Song in English)(22students) (By Nalanda Public School) (Mrs. Nandita Khanna)</span>
+                              </div>
+                           </div>
+
+                           <div className="align-items-top d-md-flex py-3">
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>7:30 - 7:40 PM</span>
+                              <div className="d-block ms-md-5 mt-2 mt-md-0 ">
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Varkari nritya (mauli mauli) (28 participants) (By Muljibhai Mehta Intl School) (Mrs. Manisha Karekar)</span>
+                              </div>
+                           </div>
+
+                           <div className="align-items-top d-md-flex py-3">
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>7:40 - 7:50 PM</span>
+                              <div className="d-block ms-md-5 mt-2 mt-md-0 ">
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Shetkari nritya (bhalgari dada) (By SSL Eng School, Parel)(Ms.Apeksha Chaudhari)</span>
+                              </div>
+                           </div>
+
+                           <div className="align-items-top d-md-flex py-3">
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>7:50 - 8:00 PM</span>
+                              <div className="d-block ms-md-5 mt-2 mt-md-0 ">
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Koli Dance (By Matrix Academy)(Mrs. Seema Behl)</span>
+                              </div>
+                           </div>
+
+                           <div className="align-items-top d-md-flex py-3">
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>8:00 - 8:10 PM</span>
+                              <div className="d-block ms-md-5 mt-2 mt-md-0 ">
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Dahi handi (mach gaya shor sari nagari mein) (18 students) (By Lodha World School) (Mrs. Rashmirekha Saha)</span>
+                              </div>
+                           </div>
+
+                           <div className="align-items-top d-md-flex py-3">
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>8:10 - 8:20 PM</span>
+                              <div className="d-block ms-md-5 mt-2 mt-md-0 ">
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Gondhal (dar ugad baya) (By DAV Public School Airoli) (Principal Suman Pradhan)</span>
+                              </div>
+                           </div>
+
+                           <div className="align-items-top d-md-flex py-3">
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>8:30 - 8:40 PM</span>
+                              <div className="d-block ms-md-5 mt-2 mt-md-0 ">
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Shivaji Maharaj (Indrajimi Jambhapar/ Jai Bhawani Jai Shivaji) (By New Horizon Public school) (Mrs. Mani Srivastava)</span>
+                              </div>
+                           </div>
+
+                           <div className="align-items-top d-md-flex py-3">
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>8:40 - 8:50 PM</span>
+                              <div className="d-block ms-md-5 mt-2 mt-md-0 ">
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Bollywood (joota hai Japani; Yeh hai Bambai nagaria; Dekho dekho yeh shyam badi mastani…Om shanti om) (By Datta Meghe World Academy) (Mr. Rajeev Garg)</span>
+                              </div>
+                           </div>
+
+                           <div className="align-items-top d-md-flex py-3">
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>8:50 - 9:00 PM</span>
+                              <div className="d-block ms-md-5 mt-2 mt-md-0 ">
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Mile sur mera tumhara (students represent the various states carrying the logo placard of various Sahodaya Groups) (By DAV, Thane) (Mrs. Simi Juneja)</span>
+                              </div>
+                           </div>
+
+                           <div className="align-items-top d-md-flex py-3">
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>9:00 PM</span>
+                              <div className="d-block ms-md-5 mt-2 mt-md-0 ">
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">National Song (Mrs Simi Juneja)</span>
                               </div>
                            </div>
                         </div>
@@ -545,57 +648,60 @@ export const Home = () => {
                               <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-800 text-extra-small text-uppercase">December 09, 2023</span>
                            </div>
                            <div className="align-items-top border-bottom d-md-flex py-3">
-                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>9:30 am-11:00 am</span>
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>9:00 - 9:10 AM</span>
                               <div className="d-block ms-md-5 mt-2 mt-md-0 ">
-                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Session 1 - Evolving and Emerging School System</span>
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Prayer and Welcome</span>
                               </div>
                            </div>
                            <div className="align-items-top border-bottom d-md-flex py-3">
-                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>11:00 am-11:30 am </span>
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>9:10 - 10:15 AM</span>
                               <div className="d-block ms-md-5 mt-2 mt-md-0 ">
-                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Tea Break </span>
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Session - 5 Evolving and Emerging School Systems</span>
                               </div>
                            </div>
                            <div className="align-items-top border-bottom d-md-flex py-3">
-                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>11:30 am-12:30 pm</span>
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>10:15 - 10:35 AM</span>
                               <div className="d-block ms-md-5 mt-2 mt-md-0 ">
-                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Session 2 - Education For Resilience, Protection and Well Being</span>
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Networking &amp; tea break/stall visit</span>
+                              </div>
+                           </div>
+                           <div className="align-items-top border-bottom d-md-flex py-3">
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>10:35 AM - 12:00 PM</span>
+                              <div className="d-block ms-md-5 mt-2 mt-md-0 ">
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Session 6 - Education for Resilience, Protection &amp; Well-being: Inclusion and Integration in Schools</span>
+                              </div>
+                           </div>
+                           <div className="align-items-top border-bottom d-md-flex py-3">
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>12:00 - 12:50 PM</span>
+                              <div className="d-block ms-md-5 mt-2 mt-md-0 ">
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Session 7 -Vocational Education- Global Perspective</span>
 
                               </div>
                            </div>
                            <div className="align-items-top border-bottom d-md-flex py-3">
-                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}> 12:30 pm- 1:30 pm</span>
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>12:50 - 1:45 PM</span>
                               <div className="d-block ms-md-5 mt-2 mt-md-0 ">
-                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Session 3 - Vocational Education</span>
-
-                              </div>
-                           </div>
-                           <div className="align-items-top border-bottom d-md-flex py-3">
-                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>1:30 pm-2:15 pm</span>
-                              <div className="d-block ms-md-5 mt-2 mt-md-0 ">
-                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Lunch</span>
-
-                              </div>
-                           </div>
-                           <div className="align-items-top border-bottom d-md-flex py-3">
-                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>2:15pm-3:15 pm</span>
-                              <div className="d-block ms-md-5 mt-2 mt-md-0 ">
-                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Session 4 - Education in Digital Age</span>
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Session 8 - Education in digital age-opportunities and challenges</span>
 
                               </div>
                            </div>
 
                            <div className="align-items-top border-bottom d-md-flex py-3">
-                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>3:15 pm-4:15 pm </span>
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>1:45 - 2:30 PM</span>
                               <div className="d-block ms-md-5 mt-2 mt-md-0 ">
-                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Session with CBSE officials</span>
-
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Open house by CBSE officials</span>
                               </div>
                            </div>
                            <div className="align-items-top border-bottom d-md-flex py-3">
-                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>4:15 pm-6 pm </span>
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>2:30 - 4:15 PM</span>
                               <div className="d-block ms-md-5 mt-2 mt-md-0 ">
-                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Valedictory Function and report presentation</span>
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Valedictory session</span>
+                              </div>
+                           </div>
+                           <div className="align-items-top border-bottom d-md-flex py-3">
+                              <span className="d-block font-alt font-w-600 letter-spacing-1 text-gray-700 text-small text-uppercase" style={{ 'width': "200px", 'maxWidth': "200px", 'minWidth': "200px" }}>4:15 - 4:40 PM</span>
+                              <div className="d-block ms-md-5 mt-2 mt-md-0 ">
+                                 <span className="d-block font-alt font-w-600 letter-spacing-1 text-small text-uppercase">Tea (25 Minutes)</span>
                               </div>
                            </div>
 
