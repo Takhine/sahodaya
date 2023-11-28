@@ -87,34 +87,52 @@ export const Home = () => {
                               <br />09th Dec. 2023
                            </p>
                         </div>
-                        <div className="col-sm-12 text-center text-lg-start">
+                     </div>
+                  </div>
+               </div>
+               
+               <div className="row justify-content-center">
+               <div className="col-sm-12 text-center text-lg-start">
                            <i className="fa fa-bullhorn fa-3x text-blue mt-5"></i>
                            <span className="d-block font-alt font-w-600 letter-spacing-1 mt-3 text-medium text-uppercase">Speakers</span>
                         </div>
                         <div className="col-sm-6 text-center text-lg-start">
-                           <p className="mb-0 mt-2 text-medium">Prof Mark Novaki</p>
-                           <p className="mb-0 mt-2 text-medium">Shree Gauri Sawant</p>
-                           <p className="mb-0 mt-2 text-medium">Ms Sarita Jadhav</p>
-                           <p className="mb-0 mt-2 text-medium">Dr Brijesh Karia</p>
-                           <p className="mb-0 mt-2 text-medium">Dr Kannan Gireesh</p>
-                           <p className="mb-0 mt-2 text-medium">Dr Chinu Agarwal</p>
-                           <p className="mb-0 mt-2 text-medium">Mrs Manjushree Patil</p>
-                           <p className="mb-0 mt-2 text-medium">Dr Rakshit Tondon</p>
-                           <p className="mb-0 mt-2 text-medium">Mrs Deepti Sawhney</p>
+                           <p className="mb-0 mt-2 text-medium">Dr Joseph Emmanuel, Director (Academics), Central Board of Secondary Education, New Delhi</p>
+                           <p className="mb-0 mt-2 text-medium">Ms Niddhi Chhibber, Chairperson, Central Board of Secondary Education, New Delhi</p>
+                           <p className="mb-0 mt-2 text-medium">Mr Sanjay Kumar, Secretary (Education), Ministry of Education, Govt of India</p>
+                           <p className="mb-0 mt-2 text-medium">Ms Shashikala Wanjari, VC, NIEPA</p>
+                           <p className="mb-0 mt-2 text-medium">Mr Manoj Joshi, Noted Film Actor and Theatre Personality</p>
+                           <p className="mb-0 mt-2 text-medium">Dr Tushar Guha, Founder Chairperson, Nrityanjali</p>
+                           <p className="mb-0 mt-2 text-medium">Dr Milind Naik, Principal, Jnana Probodhini Prashala</p>
+                           <p className="mb-0 mt-2 text-medium">Ms Manjushree Patil, Founder Director, Aatman Academy</p>
+                           <p className="mb-0 mt-2 text-medium">Dr Reeta Sonawat, Former Dean, Professor, HoD Human Development, SNDT University, Mumbai</p>
+                           <p className="mb-0 mt-2 text-medium">Prof Marc Nowacki, Singapore University and Co-Founder LogicMills</p>
+                           <p className="mb-0 mt-2 text-medium">Prof Suniti Sanwal,  NCERT</p>
+                           <p className="mb-0 mt-2 text-medium">Dr Geetanjali Kumar, National resource person for Nationwide Adolescent Education Program (AEP) run by Ministry of Human Resource Development  in partnership with MHRD-NCERT-UNFPA.</p>
+                           <p className="mb-0 mt-2 text-medium">Dr Senthil Kumaran A, Chief Confluencer, Co- Founder- Learners Confluence, Chief Mentor & Director, ExcelOne.</p>
+                           <p className="mb-0 mt-2 text-medium">Dr. Binay Patnaik, Senior Education Consultant, World Bank</p>
+                           <p className="mb-0 mt-2 text-medium">Dr. Brijesh Karia, Distinguished Educational Leader and  COO Singhania Education</p>
+
                         </div>
                         <div className="col-sm-6 text-center text-lg-start">
-                           <p className="mb-0 mt-2 text-medium">Mr Jignesh Ojha</p>
-                           <p className="mb-0 mt-2 text-medium">Dr John Thomas</p>
-                           <p className="mb-0 mt-2 text-medium">Mrs Preethika Venkat Krishnan</p>
-                           <p className="mb-0 mt-2 text-medium">Dr C.P. Vishwanath</p>
-                           <p className="mb-0 mt-2 text-medium">Dr Milind Naik</p>
-                           <p className="mb-0 mt-2 text-medium">Dr Reeta Sonawat</p>
-                           <p className="mb-0 mt-2 text-medium">Dr Tushar Guha</p>
-                           <p className="mb-0 mt-2 text-medium">Dr Asthamurthy Killimanglam</p>
-                           <p className="mb-0 mt-2 text-medium">Mr Manoj Joshi, Padmashree Awardee</p>
+                           <p className="mb-0 mt-2 text-medium">Dr. A.P. Jayaraman, Principal Scientific Advisor, HSNC University, Mumbai.</p>
+                           <p className="mb-0 mt-2 text-medium">Dr. Vasudha Kamat, Chairperson, Governing Body of CEC (Consortium of Educational Communication), Former Vice Chancellor of SNDT Women University,Mumbai</p>
+                           <p className="mb-0 mt-2 text-medium">Dr. Chinu Agrawal Psychologist and Psychotherapist Director : Feeling Minds®</p>
+                           <p className="mb-0 mt-2 text-medium">Dr. Anand Lakshman, CEO of AddressHealth,</p>
+                           <p className="mb-0 mt-2 text-medium">Ms. Sarita Jadav, National Programme Officer, UNESCO, Delhi</p>
+                           <p className="mb-0 mt-2 text-medium">Shree Gauri Sawant - A Champion for Transgender Rights and Social Welfare, Founder of the Sai Savi Foundation Trust.</p>
+                           <p className="mb-0 mt-2 text-medium">Mr Ramesh Sippy, Chairman, Media & Entertainment Skill Council</p>
+                           <p className="mb-0 mt-2 text-medium">Mr Aditya Gupta, Head, Global Data n Analytics Products, Mercer Digital</p>
+                           <p className="mb-0 mt-2 text-medium">Dr Rakshit Tandon, National Cyber Security Expert, and Crime Investigator on Cyber Forensics and Ethical Hacking</p>
+                           <p className="mb-0 mt-2 text-medium">Ms Deepti Sawhney- CEO and Founder, Mahattattva</p>
+                           <p className="mb-0 mt-2 text-medium">Ms. MONICA PATEL,  CEO, “First in Math India Pvt. Ltd.”,</p>
+                           <p className="mb-0 mt-2 text-medium">Mr Jignesh Oza, Digital Trust (Cyber Security)</p>
+                           <p className="mb-0 mt-2 text-medium">Dr Radhakrishnan Pillai, founder and Director of Chanakya International Institute of Leadership Studies (CIILS) at the University of Mumbai.</p>
+                           <p className="mb-0 mt-2 text-medium">Mr Girish Dalvi, Chief Administrator, Open Forum For Principals</p>
+                           <p className="mb-0 mt-2 text-medium">Mr Kavish, Stone2 Milestone</p>
+
+
                         </div>
-                     </div>
-                  </div>
                </div>
             </div>
          </section>
